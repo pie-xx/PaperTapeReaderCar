@@ -32,5 +32,7 @@ https://www.waveshare.com/wiki/Pico-Motor-Driver
 
 ソース一覧
 
+||ファイル名|
+|--|--|
 |picoソース|main.py|
 |紙テープリーダー修正ソース|sketch_oct4a.ino|
