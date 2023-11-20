@@ -1,0 +1,1476 @@
+Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.py"
+----------
+ <module 'pybricks'>
+  ev3devices <module 'pybricks.ev3devices'>
+    ColorSensor <class 'ColorSensor'>
+      ambient <function>
+      color <function>
+      reflection <function>
+      rgb <function>
+    GyroSensor <class 'GyroSensor'>
+      angle <function>
+      reset_angle <function>
+      speed <function>
+    InfraredSensor <class 'InfraredSensor'>
+      beacon <function>
+      buttons <function>
+      distance <function>
+      keypad <function>
+    Motor <class 'Motor'>
+      __module__ pybricks.ev3devices
+      __qualname__ Motor
+      stop <closure <function stop at 0xb5e84480> at b5e84410, n_closed=1 <cell b5e84940 <class 'Motor'>> >
+      angle <function>
+      brake <function>
+      dc <function>
+      hold <function>
+      reset_angle <function>
+      run <function>
+      run_angle <function>
+      run_target <function>
+      run_time <function>
+      run_until_stalled <function>
+      speed <function>
+      stalled <function stalled at 0xb5e81390>
+      track_target <function>
+      set_dc_settings <function set_dc_settings at 0xb5e848c0>
+      set_run_settings <function set_run_settings at 0xb5e848a0>
+      set_pid_settings <function set_pid_settings at 0xb5e848b0>
+    Stop <class 'Stop'>
+      BRAKE Stop.BRAKE
+      COAST Stop.COAST
+      HOLD Stop.HOLD
+    TouchSensor <class 'TouchSensor'>
+      pressed <function>
+    UltrasonicSensor <class 'UltrasonicSensor'>
+      distance <function>
+      presence <function>
+    CompatMotor <class 'Motor'>
+      stop <function>
+      angle <function>
+      brake <function>
+      dc <function>
+      hold <function>
+      reset_angle <function>
+      run <function>
+      run_angle <function>
+      run_target <function>
+      run_time <function>
+      run_until_stalled <function>
+      speed <function>
+      track_target <function>
+  hubs <module 'pybricks.hubs'>
+    EV3Brick <class 'EV3Brick'>
+      battery <module 'battery'>
+        current <function>
+        voltage <function>
+      buttons <module 'buttons'>
+        pressed <function>
+  parameters <module 'pybricks.parameters'>
+    Button <class 'Button'>
+      BEACON Button.BEACON
+      CENTER Button.CENTER
+      DOWN Button.DOWN
+      LEFT Button.LEFT
+      LEFT_DOWN Button.LEFT_DOWN
+      LEFT_UP Button.LEFT_UP
+      RIGHT Button.RIGHT
+      RIGHT_DOWN Button.RIGHT_DOWN
+      RIGHT_UP Button.RIGHT_UP
+      UP Button.UP
+    Color <class 'Color'>
+      BLACK Color.BLACK
+      BLUE Color.BLUE
+      BROWN Color.BROWN
+      GREEN Color.GREEN
+      ORANGE Color.ORANGE
+      PURPLE Color.PURPLE
+      RED Color.RED
+      WHITE Color.WHITE
+      YELLOW Color.YELLOW
+    Direction <class 'Direction'>
+      CLOCKWISE Direction.CLOCKWISE
+      COUNTERCLOCKWISE Direction.COUNTERCLOCKWISE
+    Port <class 'Port'>
+      A Port.A
+      B Port.B
+      C Port.C
+      D Port.D
+      S1 Port.S1
+      S2 Port.S2
+      S3 Port.S3
+      S4 Port.S4
+    Stop <class 'Stop'>
+      BRAKE Stop.BRAKE
+      COAST Stop.COAST
+      HOLD Stop.HOLD
+    ImageFile <class 'ImageFile'>
+      __module__ pybricks.media.ev3dev
+      __qualname__ ImageFile
+      DOWN /usr/share/images/ev3dev/mono/eyes/down.png
+      LEFT /usr/share/images/ev3dev/mono/information/left.png
+      RIGHT /usr/share/images/ev3dev/mono/information/right.png
+      UP /usr/share/images/ev3dev/mono/eyes/up.png
+      EV3 /usr/share/images/ev3dev/mono/lego/ev3.png
+      BOTTOM_LEFT /usr/share/images/ev3dev/mono/eyes/bottom_left.png
+      BOTTOM_RIGHT /usr/share/images/ev3dev/mono/eyes/bottom_right.png
+      _BASE_PATH /usr/share/images/ev3dev/mono/
+      FORWARD /usr/share/images/ev3dev/mono/information/forward.png
+      ANGRY /usr/share/images/ev3dev/mono/eyes/angry.png
+      AWAKE /usr/share/images/ev3dev/mono/eyes/awake.png
+      BLACK_EYE /usr/share/images/ev3dev/mono/eyes/black_eye.png
+      CRAZY_1 /usr/share/images/ev3dev/mono/eyes/crazy_1.png
+      CRAZY_2 /usr/share/images/ev3dev/mono/eyes/crazy_2.png
+      DISAPPOINTED /usr/share/images/ev3dev/mono/eyes/disappointed.png
+      DIZZY /usr/share/images/ev3dev/mono/eyes/dizzy.png
+      EVIL /usr/share/images/ev3dev/mono/eyes/evil.png
+      HURT /usr/share/images/ev3dev/mono/eyes/hurt.png
+      KNOCKED_OUT /usr/share/images/ev3dev/mono/eyes/knocked_out.png
+      LOVE /usr/share/images/ev3dev/mono/eyes/love.png
+      MIDDLE_LEFT /usr/share/images/ev3dev/mono/eyes/middle_left.png
+      MIDDLE_RIGHT /usr/share/images/ev3dev/mono/eyes/middle_right.png
+      NEUTRAL /usr/share/images/ev3dev/mono/eyes/neutral.png
+      NUCLEAR /usr/share/images/ev3dev/mono/eyes/nuclear.png
+      PINCHED_LEFT /usr/share/images/ev3dev/mono/eyes/pinched_left.png
+      PINCHED_MIDDLE /usr/share/images/ev3dev/mono/eyes/pinched_middle.png
+      PINCHED_RIGHT /usr/share/images/ev3dev/mono/eyes/pinched_right.png
+      SLEEPING /usr/share/images/ev3dev/mono/eyes/sleeping.png
+      TEAR /usr/share/images/ev3dev/mono/eyes/tear.png
+      TIRED_LEFT /usr/share/images/ev3dev/mono/eyes/tired_left.png
+      TIRED_MIDDLE /usr/share/images/ev3dev/mono/eyes/tired_middle.png
+      TIRED_RIGHT /usr/share/images/ev3dev/mono/eyes/tired_right.png
+      TOXIC /usr/share/images/ev3dev/mono/eyes/toxic.png
+      WINKING /usr/share/images/ev3dev/mono/eyes/winking.png
+      ACCEPT /usr/share/images/ev3dev/mono/information/accept.png
+      BACKWARD /usr/share/images/ev3dev/mono/information/backward.png
+      DECLINE /usr/share/images/ev3dev/mono/information/decline.png
+      NO_GO /usr/share/images/ev3dev/mono/information/no_go.png
+      QUESTION_MARK /usr/share/images/ev3dev/mono/information/question_mark.png
+      STOP_1 /usr/share/images/ev3dev/mono/information/stop_1.png
+      STOP_2 /usr/share/images/ev3dev/mono/information/stop_2.png
+      THUMBS_DOWN /usr/share/images/ev3dev/mono/information/thumbs_down.png
+      THUMBS_UP /usr/share/images/ev3dev/mono/information/thumbs_up.png
+      WARNING /usr/share/images/ev3dev/mono/information/warning.png
+      EV3_ICON /usr/share/images/ev3dev/mono/lego/ev3_icon.png
+      TARGET /usr/share/images/ev3dev/mono/objects/target.png
+    SoundFile <class 'SoundFile'>
+      __module__ pybricks.media.ev3dev
+      __qualname__ SoundFile
+      BLACK /usr/share/sounds/ev3dev/colors/black.wav
+      BLUE /usr/share/sounds/ev3dev/colors/blue.wav
+      BROWN /usr/share/sounds/ev3dev/colors/brown.wav
+      DOWN /usr/share/sounds/ev3dev/information/down.wav
+      GREEN /usr/share/sounds/ev3dev/colors/green.wav
+      LEFT /usr/share/sounds/ev3dev/information/left.wav
+      RED /usr/share/sounds/ev3dev/colors/red.wav
+      RIGHT /usr/share/sounds/ev3dev/information/right.wav
+      UP /usr/share/sounds/ev3dev/information/up.wav
+      WHITE /usr/share/sounds/ev3dev/colors/white.wav
+      YELLOW /usr/share/sounds/ev3dev/colors/yellow.wav
+      EV3 /usr/share/sounds/ev3dev/communication/ev3.wav
+      _BASE_PATH /usr/share/sounds/ev3dev/
+      CAT_PURR /usr/share/sounds/ev3dev/animals/cat_purr.wav
+      DOG_BARK_1 /usr/share/sounds/ev3dev/animals/dog_bark_1.wav
+      DOG_BARK_2 /usr/share/sounds/ev3dev/animals/dog_bark_2.wav
+      DOG_GROWL /usr/share/sounds/ev3dev/animals/dog_growl.wav
+      DOG_SNIFF /usr/share/sounds/ev3dev/animals/dog_sniff.wav
+      DOG_WHINE /usr/share/sounds/ev3dev/animals/dog_whine.wav
+      ELEPHANT_CALL /usr/share/sounds/ev3dev/animals/elephant_call.wav
+      INSECT_BUZZ_1 /usr/share/sounds/ev3dev/animals/insect_buzz_1.wav
+      INSECT_BUZZ_2 /usr/share/sounds/ev3dev/animals/insect_buzz_2.wav
+      INSECT_CHIRP /usr/share/sounds/ev3dev/animals/insect_chirp.wav
+      SNAKE_HISS /usr/share/sounds/ev3dev/animals/snake_hiss.wav
+      SNAKE_RATTLE /usr/share/sounds/ev3dev/animals/snake_rattle.wav
+      T_REX_ROAR /usr/share/sounds/ev3dev/animals/t-rex_roar.wav
+      BRAVO /usr/share/sounds/ev3dev/communication/bravo.wav
+      FANTASTIC /usr/share/sounds/ev3dev/communication/fantastic.wav
+      GAME_OVER /usr/share/sounds/ev3dev/communication/game_over.wav
+      GO /usr/share/sounds/ev3dev/communication/go.wav
+      GOOD /usr/share/sounds/ev3dev/communication/good.wav
+      GOOD_JOB /usr/share/sounds/ev3dev/communication/good_job.wav
+      GOODBYE /usr/share/sounds/ev3dev/communication/goodbye.wav
+      HELLO /usr/share/sounds/ev3dev/communication/hello.wav
+      HI /usr/share/sounds/ev3dev/communication/hi.wav
+      LEGO /usr/share/sounds/ev3dev/communication/lego.wav
+      MINDSTORMS /usr/share/sounds/ev3dev/communication/mindstorms.wav
+      MORNING /usr/share/sounds/ev3dev/communication/morning.wav
+      NO /usr/share/sounds/ev3dev/communication/no.wav
+      OKAY /usr/share/sounds/ev3dev/communication/okay.wav
+      OKEY_DOKEY /usr/share/sounds/ev3dev/communication/okey-dokey.wav
+      SORRY /usr/share/sounds/ev3dev/communication/sorry.wav
+      THANK_YOU /usr/share/sounds/ev3dev/communication/thank_you.wav
+      YES /usr/share/sounds/ev3dev/communication/yes.wav
+      BOING /usr/share/sounds/ev3dev/expressions/boing.wav
+      BOO /usr/share/sounds/ev3dev/expressions/boo.wav
+      CHEERING /usr/share/sounds/ev3dev/expressions/cheering.wav
+      CRUNCHING /usr/share/sounds/ev3dev/expressions/crunching.wav
+      CRYING /usr/share/sounds/ev3dev/expressions/crying.wav
+      FANFARE /usr/share/sounds/ev3dev/expressions/fanfare.wav
+      KUNG_FU /usr/share/sounds/ev3dev/expressions/kung_fu.wav
+      LAUGHING_1 /usr/share/sounds/ev3dev/expressions/laughing_1.wav
+      LAUGHING_2 /usr/share/sounds/ev3dev/expressions/laughing_2.wav
+      MAGIC_WAND /usr/share/sounds/ev3dev/expressions/magic_wand.wav
+      OUCH /usr/share/sounds/ev3dev/expressions/ouch.wav
+      SHOUTING /usr/share/sounds/ev3dev/expressions/shouting.wav
+      SMACK /usr/share/sounds/ev3dev/expressions/smack.wav
+      SNEEZING /usr/share/sounds/ev3dev/expressions/sneezing.wav
+      SNORING /usr/share/sounds/ev3dev/expressions/snoring.wav
+      UH_OH /usr/share/sounds/ev3dev/expressions/uh-oh.wav
+      ACTIVATE /usr/share/sounds/ev3dev/information/activate.wav
+      ANALYZE /usr/share/sounds/ev3dev/information/analyze.wav
+      BACKWARDS /usr/share/sounds/ev3dev/information/backwards.wav
+      COLOR /usr/share/sounds/ev3dev/information/color.wav
+      DETECTED /usr/share/sounds/ev3dev/information/detected.wav
+      ERROR /usr/share/sounds/ev3dev/information/error.wav
+      ERROR_ALARM /usr/share/sounds/ev3dev/information/error_alarm.wav
+      FLASHING /usr/share/sounds/ev3dev/information/flashing.wav
+      FORWARD /usr/share/sounds/ev3dev/information/forward.wav
+      OBJECT /usr/share/sounds/ev3dev/information/object.wav
+      SEARCHING /usr/share/sounds/ev3dev/information/searching.wav
+      START /usr/share/sounds/ev3dev/information/start.wav
+      STOP /usr/share/sounds/ev3dev/information/stop.wav
+      TOUCH /usr/share/sounds/ev3dev/information/touch.wav
+      TURN /usr/share/sounds/ev3dev/information/turn.wav
+      AIR_RELEASE /usr/share/sounds/ev3dev/mechanical/air_release.wav
+      AIRBRAKE /usr/share/sounds/ev3dev/mechanical/airbrake.wav
+      BACKING_ALERT /usr/share/sounds/ev3dev/mechanical/backing_alert.wav
+      HORN_1 /usr/share/sounds/ev3dev/mechanical/horn_1.wav
+      HORN_2 /usr/share/sounds/ev3dev/mechanical/horn_2.wav
+      LASER /usr/share/sounds/ev3dev/mechanical/laser.wav
+      MOTOR_IDLE /usr/share/sounds/ev3dev/mechanical/motor_idle.wav
+      MOTOR_START /usr/share/sounds/ev3dev/mechanical/motor_start.wav
+      MOTOR_STOP /usr/share/sounds/ev3dev/mechanical/motor_stop.wav
+      RATCHET /usr/share/sounds/ev3dev/mechanical/ratchet.wav
+      SONAR /usr/share/sounds/ev3dev/mechanical/sonar.wav
+      TICK_TACK /usr/share/sounds/ev3dev/mechanical/tick_tack.wav
+      SPEED_DOWN /usr/share/sounds/ev3dev/movements/speed_down.wav
+      SPEED_IDLE /usr/share/sounds/ev3dev/movements/speed_idle.wav
+      SPEED_UP /usr/share/sounds/ev3dev/movements/speed_up.wav
+      ZERO /usr/share/sounds/ev3dev/numbers/zero.wav
+      ONE /usr/share/sounds/ev3dev/numbers/one.wav
+      TWO /usr/share/sounds/ev3dev/numbers/two.wav
+      THREE /usr/share/sounds/ev3dev/numbers/three.wav
+      FOUR /usr/share/sounds/ev3dev/numbers/four.wav
+      FIVE /usr/share/sounds/ev3dev/numbers/five.wav
+      SIX /usr/share/sounds/ev3dev/numbers/six.wav
+      SEVEN /usr/share/sounds/ev3dev/numbers/seven.wav
+      EIGHT /usr/share/sounds/ev3dev/numbers/eight.wav
+      NINE /usr/share/sounds/ev3dev/numbers/nine.wav
+      TEN /usr/share/sounds/ev3dev/numbers/ten.wav
+      CLICK /usr/share/sounds/ev3dev/system/click.wav
+      CONFIRM /usr/share/sounds/ev3dev/system/confirm.wav
+      GENERAL_ALERT /usr/share/sounds/ev3dev/system/general_alert.wav
+      OVERPOWER /usr/share/sounds/ev3dev/system/overpower.wav
+      READY /usr/share/sounds/ev3dev/system/ready.wav
+    Align <class 'Align'>
+      __module__ pybricks.parameters
+      __qualname__ Align
+      CENTER 5
+      LEFT 4
+      RIGHT 6
+      BOTTOM_LEFT 1
+      TOP_RIGHT 9
+      TOP_LEFT 7
+      BOTTOM_RIGHT 3
+      TOP 8
+      BOTTOM 2
+  robotics <module 'pybricks.robotics'>
+    DriveBase <class 'DriveBase'>
+      __module__ pybricks.robotics
+      __qualname__ DriveBase
+      stop <closure <function stop at 0xb5e84cc0> at b5e84ce0, n_closed=1 <cell b5e84d20 <class 'DriveBase'>> >
+      angle <function>
+      distance <function>
+      drive <function>
+      reset <function>
+      settings <function>
+      state <function>
+      straight <function>
+      turn <function>
+      drive_time <function drive_time at 0xb5e84ca0>
+    Stop <class 'Stop'>
+      BRAKE Stop.BRAKE
+      COAST Stop.COAST
+      HOLD Stop.HOLD
+    wait <function>
+    CompatDriveBase <class 'DriveBase'>
+      stop <function>
+      angle <function>
+      distance <function>
+      drive <function>
+      reset <function>
+      settings <function>
+      state <function>
+      straight <function>
+      turn <function>
+  tools <module 'pybricks.tools'>
+    print <function>
+    StopWatch <class 'StopWatch'>
+      pause <function>
+      reset <function>
+      resume <function>
+      time <function>
+    localtime <function>
+    ticks_us <function>
+    wait <function>
+    DataLog <class 'DataLog'>
+      __init__ <function __init__ at 0xb5e84b20>
+      __module__ pybricks.tools
+      __qualname__ DataLog
+      __repr__ <function __repr__ at 0xb5e84af0>
+      log <function log at 0xb5e84ad0>
+  media <module 'pybricks.media'>
+    ev3dev <module 'pybricks.media.ev3dev'>
+      Font <class 'Font'>
+        __del__ <function>
+        DEFAULT <Font>
+          __del__ <bound_method b5ea85f0 <Font>.<function>>
+          DEFAULT <Font>
+            __del__ <bound_method b5ea88d0 <Font>.<function>>
+            DEFAULT <Font>
+            family Lucida
+            height 23
+            style Sans
+            text_height <bound_method b5ea88e0 <Font>.<function>>
+            text_width <bound_method b5ea8ff0 <Font>.<function>>
+            width 19
+          family Lucida
+          height 23
+          style Sans
+          text_height <bound_method b5ea8600 <Font>.<function>>
+          text_width <bound_method b5ea9740 <Font>.<function>>
+          width 19
+        text_height <function>
+        text_width <function>
+      Image <class 'Image'>
+        clear <function>
+        print <function>
+        __del__ <function>
+        draw_box <function>
+        draw_circle <function>
+        draw_image <function>
+        draw_line <function>
+        draw_pixel <function>
+        draw_text <function>
+        empty <function>
+        load_image <function>
+        save <function>
+        set_font <function>
+      ImageFile <class 'ImageFile'>
+        __module__ pybricks.media.ev3dev
+        __qualname__ ImageFile
+        DOWN /usr/share/images/ev3dev/mono/eyes/down.png
+        LEFT /usr/share/images/ev3dev/mono/information/left.png
+        RIGHT /usr/share/images/ev3dev/mono/information/right.png
+        UP /usr/share/images/ev3dev/mono/eyes/up.png
+        EV3 /usr/share/images/ev3dev/mono/lego/ev3.png
+        BOTTOM_LEFT /usr/share/images/ev3dev/mono/eyes/bottom_left.png
+        BOTTOM_RIGHT /usr/share/images/ev3dev/mono/eyes/bottom_right.png
+        _BASE_PATH /usr/share/images/ev3dev/mono/
+        FORWARD /usr/share/images/ev3dev/mono/information/forward.png
+        ANGRY /usr/share/images/ev3dev/mono/eyes/angry.png
+        AWAKE /usr/share/images/ev3dev/mono/eyes/awake.png
+        BLACK_EYE /usr/share/images/ev3dev/mono/eyes/black_eye.png
+        CRAZY_1 /usr/share/images/ev3dev/mono/eyes/crazy_1.png
+        CRAZY_2 /usr/share/images/ev3dev/mono/eyes/crazy_2.png
+        DISAPPOINTED /usr/share/images/ev3dev/mono/eyes/disappointed.png
+        DIZZY /usr/share/images/ev3dev/mono/eyes/dizzy.png
+        EVIL /usr/share/images/ev3dev/mono/eyes/evil.png
+        HURT /usr/share/images/ev3dev/mono/eyes/hurt.png
+        KNOCKED_OUT /usr/share/images/ev3dev/mono/eyes/knocked_out.png
+        LOVE /usr/share/images/ev3dev/mono/eyes/love.png
+        MIDDLE_LEFT /usr/share/images/ev3dev/mono/eyes/middle_left.png
+        MIDDLE_RIGHT /usr/share/images/ev3dev/mono/eyes/middle_right.png
+        NEUTRAL /usr/share/images/ev3dev/mono/eyes/neutral.png
+        NUCLEAR /usr/share/images/ev3dev/mono/eyes/nuclear.png
+        PINCHED_LEFT /usr/share/images/ev3dev/mono/eyes/pinched_left.png
+        PINCHED_MIDDLE /usr/share/images/ev3dev/mono/eyes/pinched_middle.png
+        PINCHED_RIGHT /usr/share/images/ev3dev/mono/eyes/pinched_right.png
+        SLEEPING /usr/share/images/ev3dev/mono/eyes/sleeping.png
+        TEAR /usr/share/images/ev3dev/mono/eyes/tear.png
+        TIRED_LEFT /usr/share/images/ev3dev/mono/eyes/tired_left.png
+        TIRED_MIDDLE /usr/share/images/ev3dev/mono/eyes/tired_middle.png
+        TIRED_RIGHT /usr/share/images/ev3dev/mono/eyes/tired_right.png
+        TOXIC /usr/share/images/ev3dev/mono/eyes/toxic.png
+        WINKING /usr/share/images/ev3dev/mono/eyes/winking.png
+        ACCEPT /usr/share/images/ev3dev/mono/information/accept.png
+        BACKWARD /usr/share/images/ev3dev/mono/information/backward.png
+        DECLINE /usr/share/images/ev3dev/mono/information/decline.png
+        NO_GO /usr/share/images/ev3dev/mono/information/no_go.png
+        QUESTION_MARK /usr/share/images/ev3dev/mono/information/question_mark.png
+        STOP_1 /usr/share/images/ev3dev/mono/information/stop_1.png
+        STOP_2 /usr/share/images/ev3dev/mono/information/stop_2.png
+        THUMBS_DOWN /usr/share/images/ev3dev/mono/information/thumbs_down.png
+        THUMBS_UP /usr/share/images/ev3dev/mono/information/thumbs_up.png
+        WARNING /usr/share/images/ev3dev/mono/information/warning.png
+        EV3_ICON /usr/share/images/ev3dev/mono/lego/ev3_icon.png
+        TARGET /usr/share/images/ev3dev/mono/objects/target.png
+      SoundFile <class 'SoundFile'>
+        __module__ pybricks.media.ev3dev
+        __qualname__ SoundFile
+        BLACK /usr/share/sounds/ev3dev/colors/black.wav
+        BLUE /usr/share/sounds/ev3dev/colors/blue.wav
+        BROWN /usr/share/sounds/ev3dev/colors/brown.wav
+        DOWN /usr/share/sounds/ev3dev/information/down.wav
+        GREEN /usr/share/sounds/ev3dev/colors/green.wav
+        LEFT /usr/share/sounds/ev3dev/information/left.wav
+        RED /usr/share/sounds/ev3dev/colors/red.wav
+        RIGHT /usr/share/sounds/ev3dev/information/right.wav
+        UP /usr/share/sounds/ev3dev/information/up.wav
+        WHITE /usr/share/sounds/ev3dev/colors/white.wav
+        YELLOW /usr/share/sounds/ev3dev/colors/yellow.wav
+        EV3 /usr/share/sounds/ev3dev/communication/ev3.wav
+        _BASE_PATH /usr/share/sounds/ev3dev/
+        CAT_PURR /usr/share/sounds/ev3dev/animals/cat_purr.wav
+        DOG_BARK_1 /usr/share/sounds/ev3dev/animals/dog_bark_1.wav
+        DOG_BARK_2 /usr/share/sounds/ev3dev/animals/dog_bark_2.wav
+        DOG_GROWL /usr/share/sounds/ev3dev/animals/dog_growl.wav
+        DOG_SNIFF /usr/share/sounds/ev3dev/animals/dog_sniff.wav
+        DOG_WHINE /usr/share/sounds/ev3dev/animals/dog_whine.wav
+        ELEPHANT_CALL /usr/share/sounds/ev3dev/animals/elephant_call.wav
+        INSECT_BUZZ_1 /usr/share/sounds/ev3dev/animals/insect_buzz_1.wav
+        INSECT_BUZZ_2 /usr/share/sounds/ev3dev/animals/insect_buzz_2.wav
+        INSECT_CHIRP /usr/share/sounds/ev3dev/animals/insect_chirp.wav
+        SNAKE_HISS /usr/share/sounds/ev3dev/animals/snake_hiss.wav
+        SNAKE_RATTLE /usr/share/sounds/ev3dev/animals/snake_rattle.wav
+        T_REX_ROAR /usr/share/sounds/ev3dev/animals/t-rex_roar.wav
+        BRAVO /usr/share/sounds/ev3dev/communication/bravo.wav
+        FANTASTIC /usr/share/sounds/ev3dev/communication/fantastic.wav
+        GAME_OVER /usr/share/sounds/ev3dev/communication/game_over.wav
+        GO /usr/share/sounds/ev3dev/communication/go.wav
+        GOOD /usr/share/sounds/ev3dev/communication/good.wav
+        GOOD_JOB /usr/share/sounds/ev3dev/communication/good_job.wav
+        GOODBYE /usr/share/sounds/ev3dev/communication/goodbye.wav
+        HELLO /usr/share/sounds/ev3dev/communication/hello.wav
+        HI /usr/share/sounds/ev3dev/communication/hi.wav
+        LEGO /usr/share/sounds/ev3dev/communication/lego.wav
+        MINDSTORMS /usr/share/sounds/ev3dev/communication/mindstorms.wav
+        MORNING /usr/share/sounds/ev3dev/communication/morning.wav
+        NO /usr/share/sounds/ev3dev/communication/no.wav
+        OKAY /usr/share/sounds/ev3dev/communication/okay.wav
+        OKEY_DOKEY /usr/share/sounds/ev3dev/communication/okey-dokey.wav
+        SORRY /usr/share/sounds/ev3dev/communication/sorry.wav
+        THANK_YOU /usr/share/sounds/ev3dev/communication/thank_you.wav
+        YES /usr/share/sounds/ev3dev/communication/yes.wav
+        BOING /usr/share/sounds/ev3dev/expressions/boing.wav
+        BOO /usr/share/sounds/ev3dev/expressions/boo.wav
+        CHEERING /usr/share/sounds/ev3dev/expressions/cheering.wav
+        CRUNCHING /usr/share/sounds/ev3dev/expressions/crunching.wav
+        CRYING /usr/share/sounds/ev3dev/expressions/crying.wav
+        FANFARE /usr/share/sounds/ev3dev/expressions/fanfare.wav
+        KUNG_FU /usr/share/sounds/ev3dev/expressions/kung_fu.wav
+        LAUGHING_1 /usr/share/sounds/ev3dev/expressions/laughing_1.wav
+        LAUGHING_2 /usr/share/sounds/ev3dev/expressions/laughing_2.wav
+        MAGIC_WAND /usr/share/sounds/ev3dev/expressions/magic_wand.wav
+        OUCH /usr/share/sounds/ev3dev/expressions/ouch.wav
+        SHOUTING /usr/share/sounds/ev3dev/expressions/shouting.wav
+        SMACK /usr/share/sounds/ev3dev/expressions/smack.wav
+        SNEEZING /usr/share/sounds/ev3dev/expressions/sneezing.wav
+        SNORING /usr/share/sounds/ev3dev/expressions/snoring.wav
+        UH_OH /usr/share/sounds/ev3dev/expressions/uh-oh.wav
+        ACTIVATE /usr/share/sounds/ev3dev/information/activate.wav
+        ANALYZE /usr/share/sounds/ev3dev/information/analyze.wav
+        BACKWARDS /usr/share/sounds/ev3dev/information/backwards.wav
+        COLOR /usr/share/sounds/ev3dev/information/color.wav
+        DETECTED /usr/share/sounds/ev3dev/information/detected.wav
+        ERROR /usr/share/sounds/ev3dev/information/error.wav
+        ERROR_ALARM /usr/share/sounds/ev3dev/information/error_alarm.wav
+        FLASHING /usr/share/sounds/ev3dev/information/flashing.wav
+        FORWARD /usr/share/sounds/ev3dev/information/forward.wav
+        OBJECT /usr/share/sounds/ev3dev/information/object.wav
+        SEARCHING /usr/share/sounds/ev3dev/information/searching.wav
+        START /usr/share/sounds/ev3dev/information/start.wav
+        STOP /usr/share/sounds/ev3dev/information/stop.wav
+        TOUCH /usr/share/sounds/ev3dev/information/touch.wav
+        TURN /usr/share/sounds/ev3dev/information/turn.wav
+        AIR_RELEASE /usr/share/sounds/ev3dev/mechanical/air_release.wav
+        AIRBRAKE /usr/share/sounds/ev3dev/mechanical/airbrake.wav
+        BACKING_ALERT /usr/share/sounds/ev3dev/mechanical/backing_alert.wav
+        HORN_1 /usr/share/sounds/ev3dev/mechanical/horn_1.wav
+        HORN_2 /usr/share/sounds/ev3dev/mechanical/horn_2.wav
+        LASER /usr/share/sounds/ev3dev/mechanical/laser.wav
+        MOTOR_IDLE /usr/share/sounds/ev3dev/mechanical/motor_idle.wav
+        MOTOR_START /usr/share/sounds/ev3dev/mechanical/motor_start.wav
+        MOTOR_STOP /usr/share/sounds/ev3dev/mechanical/motor_stop.wav
+        RATCHET /usr/share/sounds/ev3dev/mechanical/ratchet.wav
+        SONAR /usr/share/sounds/ev3dev/mechanical/sonar.wav
+        TICK_TACK /usr/share/sounds/ev3dev/mechanical/tick_tack.wav
+        SPEED_DOWN /usr/share/sounds/ev3dev/movements/speed_down.wav
+        SPEED_IDLE /usr/share/sounds/ev3dev/movements/speed_idle.wav
+        SPEED_UP /usr/share/sounds/ev3dev/movements/speed_up.wav
+        ZERO /usr/share/sounds/ev3dev/numbers/zero.wav
+        ONE /usr/share/sounds/ev3dev/numbers/one.wav
+        TWO /usr/share/sounds/ev3dev/numbers/two.wav
+        THREE /usr/share/sounds/ev3dev/numbers/three.wav
+        FOUR /usr/share/sounds/ev3dev/numbers/four.wav
+        FIVE /usr/share/sounds/ev3dev/numbers/five.wav
+        SIX /usr/share/sounds/ev3dev/numbers/six.wav
+        SEVEN /usr/share/sounds/ev3dev/numbers/seven.wav
+        EIGHT /usr/share/sounds/ev3dev/numbers/eight.wav
+        NINE /usr/share/sounds/ev3dev/numbers/nine.wav
+        TEN /usr/share/sounds/ev3dev/numbers/ten.wav
+        CLICK /usr/share/sounds/ev3dev/system/click.wav
+        CONFIRM /usr/share/sounds/ev3dev/system/confirm.wav
+        GENERAL_ALERT /usr/share/sounds/ev3dev/system/general_alert.wav
+        OVERPOWER /usr/share/sounds/ev3dev/system/overpower.wav
+        READY /usr/share/sounds/ev3dev/system/ready.wav
+ <module 'machine'>
+  PinBase <class 'PinBase'>
+  SIGINT 2
+  SIGTERM 15
+  Signal <class 'Signal'>
+    value <function>
+    off <function>
+    on <function>
+  array <module 'array'>
+    array <class 'array'>
+      append <function>
+      extend <function>
+      decode <function>
+  mem16 <16-bit memory>
+  mem32 <32-bit memory>
+  mem8 <8-bit memory>
+  time_pulse_us <function>
+  uctypes <module 'uctypes'>
+    ARRAY -1073741824
+    BFINT16 -671088640
+    BFINT32 -402653184
+    BFINT8 -939524096
+    BFUINT16 -805306368
+    BFUINT32 -536870912
+    BFUINT8 -1073741824
+    BF_LEN 22
+    BF_POS 17
+    BIG_ENDIAN 1
+    FLOAT32 -268435456
+    FLOAT64 -134217728
+    INT 671088640
+    INT16 402653184
+    INT32 671088640
+    INT64 939524096
+    INT8 134217728
+    LITTLE_ENDIAN 0
+    LONG 671088640
+    LONGLONG 939524096
+    NATIVE 2
+    PTR 536870912
+    SHORT 402653184
+    UINT 536870912
+    UINT16 268435456
+    UINT32 536870912
+    UINT64 805306368
+    UINT8 0
+    ULONG 536870912
+    ULONGLONG 805306368
+    USHORT 268435456
+    VOID 0
+    addressof <function>
+    bytearray_at <function>
+    bytes_at <function>
+    sizeof <function>
+    struct <class 'struct'>
+  umachine <module 'umachine'>
+    PinBase <class 'PinBase'>
+    Signal <class 'Signal'>
+      value <function>
+      off <function>
+      on <function>
+    mem16 <16-bit memory>
+    mem32 <32-bit memory>
+    mem8 <8-bit memory>
+    time_pulse_us <function>
+  uos <module 'uos'>
+    remove <function>
+    errno <function>
+    getenv <function>
+    ilistdir <function>
+    mkdir <function>
+    rename <function>
+    rmdir <function>
+    stat <function>
+    statvfs <function>
+    system <function>
+  utime <module 'utime'>
+    clock <function>
+    localtime <function>
+    sleep <function>
+    sleep_ms <function>
+    sleep_us <function>
+    ticks_add <function>
+    ticks_cpu <function>
+    ticks_diff <function>
+    ticks_ms <function>
+    ticks_us <function>
+    time <function>
+  Timer <class 'Timer'>
+    __init__ <function __init__ at 0xb5e8a130>
+    __module__ machine.timer
+    __qualname__ Timer
+    callback <function callback at 0xb5e8a120>
+    handler <function handler at 0xb5e8a160>
+  timer <module 'machine.timer'>
+    SIGINT 2
+    SIGTERM 15
+    array <module 'array'>
+      array <class 'array'>
+        append <function>
+        extend <function>
+        decode <function>
+    uctypes <module 'uctypes'>
+      ARRAY -1073741824
+      BFINT16 -671088640
+      BFINT32 -402653184
+      BFINT8 -939524096
+      BFUINT16 -805306368
+      BFUINT32 -536870912
+      BFUINT8 -1073741824
+      BF_LEN 22
+      BF_POS 17
+      BIG_ENDIAN 1
+      FLOAT32 -268435456
+      FLOAT64 -134217728
+      INT 671088640
+      INT16 402653184
+      INT32 671088640
+      INT64 939524096
+      INT8 134217728
+      LITTLE_ENDIAN 0
+      LONG 671088640
+      LONGLONG 939524096
+      NATIVE 2
+      PTR 536870912
+      SHORT 402653184
+      UINT 536870912
+      UINT16 268435456
+      UINT32 536870912
+      UINT64 805306368
+      UINT8 0
+      ULONG 536870912
+      ULONGLONG 805306368
+      USHORT 268435456
+      VOID 0
+      addressof <function>
+      bytearray_at <function>
+      bytes_at <function>
+      sizeof <function>
+      struct <class 'struct'>
+    uos <module 'uos'>
+      remove <function>
+      errno <function>
+      getenv <function>
+      ilistdir <function>
+      mkdir <function>
+      rename <function>
+      rmdir <function>
+      stat <function>
+      statvfs <function>
+      system <function>
+    utime <module 'utime'>
+      clock <function>
+      localtime <function>
+      sleep <function>
+      sleep_ms <function>
+      sleep_us <function>
+      ticks_add <function>
+      ticks_cpu <function>
+      ticks_diff <function>
+      ticks_ms <function>
+      ticks_us <function>
+      time <function>
+    Timer <class 'Timer'>
+      __init__ <function __init__ at 0xb5e8a130>
+      __module__ machine.timer
+      __qualname__ Timer
+      callback <function callback at 0xb5e8a120>
+      handler <function handler at 0xb5e8a160>
+    ffilib <module 'ffilib'>
+      open <function open at 0xb5e85c60>
+      ffi <module 'ffi'>
+        open <function>
+        as_bytearray <function>
+        callback <function>
+        func <function>
+      sys <module 'sys'>
+        argv ['/home/robot/objdump/main.py']
+        byteorder little
+        exit <function>
+        getsizeof <function>
+        implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
+        maxsize 2147483647
+        modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+        path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
+        platform linux
+        print_exception <function>
+        stderr <io.TextIOWrapper 2>
+          __enter__ <bound_method b5ec9540 <io.TextIOWrapper 2>.<function>>
+          __exit__ <bound_method b5ec9560 <io.TextIOWrapper 2>.<function>>
+          __next__ <bound_method b5ec9710 <io.TextIOWrapper 2>.<function>>
+          close <bound_method b5ec9870 <io.TextIOWrapper 2>.<function>>
+          read <bound_method b5ec99d0 <io.TextIOWrapper 2>.<function>>
+          readinto <bound_method b5ec9b20 <io.TextIOWrapper 2>.<function>>
+          readline <bound_method b5ec9c60 <io.TextIOWrapper 2>.<function>>
+          write <bound_method b5ec9dc0 <io.TextIOWrapper 2>.<function>>
+          fileno <bound_method b5ec9f20 <io.TextIOWrapper 2>.<function>>
+          flush <bound_method b5eca070 <io.TextIOWrapper 2>.<function>>
+          readlines <bound_method b5eca1d0 <io.TextIOWrapper 2>.<function>>
+          seek <bound_method b5eca320 <io.TextIOWrapper 2>.<function>>
+          tell <bound_method b5eca480 <io.TextIOWrapper 2>.<function>>
+        stdin <io.TextIOWrapper 0>
+          __enter__ <bound_method b5eca7e0 <io.TextIOWrapper 0>.<function>>
+          __exit__ <bound_method b5eca800 <io.TextIOWrapper 0>.<function>>
+          __next__ <bound_method b5eca9b0 <io.TextIOWrapper 0>.<function>>
+          close <bound_method b5ecab10 <io.TextIOWrapper 0>.<function>>
+          read <bound_method b5ecac70 <io.TextIOWrapper 0>.<function>>
+          readinto <bound_method b5ecadc0 <io.TextIOWrapper 0>.<function>>
+          readline <bound_method b5ecaf00 <io.TextIOWrapper 0>.<function>>
+          write <bound_method b5ecb060 <io.TextIOWrapper 0>.<function>>
+          fileno <bound_method b5ecb1c0 <io.TextIOWrapper 0>.<function>>
+          flush <bound_method b5ecb310 <io.TextIOWrapper 0>.<function>>
+          readlines <bound_method b5ecb470 <io.TextIOWrapper 0>.<function>>
+          seek <bound_method b5ecb5c0 <io.TextIOWrapper 0>.<function>>
+          tell <bound_method b5ecb720 <io.TextIOWrapper 0>.<function>>
+        stdout <io.TextIOWrapper 1>
+          __enter__ <bound_method b5ecba80 <io.TextIOWrapper 1>.<function>>
+          __exit__ <bound_method b5ecbaa0 <io.TextIOWrapper 1>.<function>>
+          __next__ <bound_method b5ecbc50 <io.TextIOWrapper 1>.<function>>
+          close <bound_method b5ecbdb0 <io.TextIOWrapper 1>.<function>>
+          read <bound_method b5ecbf10 <io.TextIOWrapper 1>.<function>>
+          readinto <bound_method b5ecc060 <io.TextIOWrapper 1>.<function>>
+          readline <bound_method b5ecc1a0 <io.TextIOWrapper 1>.<function>>
+          write <bound_method b5ecc300 <io.TextIOWrapper 1>.<function>>
+          fileno <bound_method b5ecc460 <io.TextIOWrapper 1>.<function>>
+          flush <bound_method b5ecc5b0 <io.TextIOWrapper 1>.<function>>
+          readlines <bound_method b5ecc710 <io.TextIOWrapper 1>.<function>>
+          seek <bound_method b5ecc860 <io.TextIOWrapper 1>.<function>>
+          tell <bound_method b5ecc9c0 <io.TextIOWrapper 1>.<function>>
+        version 3.4.0
+        version_info (3, 4, 0)
+      v 0
+      libc <function libc at 0xb5e85970>
+      _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+      bitness 32
+    os <module 'os'>
+      close <function close at 0xb5e892e0>
+      open <function open at 0xb5e892a0>
+      read <function read at 0xb5e892c0>
+      remove <function unlink at 0xb5e893d0>
+      sep /
+      write <function write at 0xb5e892d0>
+      array <module 'array'>
+        array <class 'array'>
+          append <function>
+          extend <function>
+          decode <function>
+      getenv <function getenv at 0xb5e893b0>
+      ilistdir <function>
+      mkdir <function mkdir at 0xb5e88ff0>
+      name posix
+      rename <function rename at 0xb5e89010>
+      rmdir <function rmdir at 0xb5e891f0>
+      stat <function>
+      struct <module 'ustruct'>
+        calcsize <function>
+        pack <function>
+        pack_into <function>
+        unpack <function>
+        unpack_from <function>
+      system <function system at 0xb5e89390>
+      uos <module 'uos'>
+        remove <function>
+        errno <function>
+        getenv <function>
+        ilistdir <function>
+        mkdir <function>
+        rename <function>
+        rmdir <function>
+        stat <function>
+        statvfs <function>
+        system <function>
+      urandom <function urandom at 0xb5e89400>
+      fork <function fork at 0xb5e89320>
+      ffilib <module 'ffilib'>
+        open <function open at 0xb5e85c60>
+        ffi <module 'ffi'>
+          open <function>
+          as_bytearray <function>
+          callback <function>
+          func <function>
+        sys <module 'sys'>
+          argv ['/home/robot/objdump/main.py']
+          byteorder little
+          exit <function>
+          getsizeof <function>
+          implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
+          maxsize 2147483647
+          modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+          path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
+          platform linux
+          print_exception <function>
+          stderr <io.TextIOWrapper 2>
+            __enter__ <bound_method b5ed1bb0 <io.TextIOWrapper 2>.<function>>
+            __exit__ <bound_method b5ed1bd0 <io.TextIOWrapper 2>.<function>>
+            __next__ <bound_method b5ed1d80 <io.TextIOWrapper 2>.<function>>
+            close <bound_method b5ed1ee0 <io.TextIOWrapper 2>.<function>>
+            read <bound_method b5ed2040 <io.TextIOWrapper 2>.<function>>
+            readinto <bound_method b5ed21a0 <io.TextIOWrapper 2>.<function>>
+            readline <bound_method b5ed2300 <io.TextIOWrapper 2>.<function>>
+            write <bound_method b5ed2460 <io.TextIOWrapper 2>.<function>>
+            fileno <bound_method b5ed25c0 <io.TextIOWrapper 2>.<function>>
+            flush <bound_method b5ed2720 <io.TextIOWrapper 2>.<function>>
+            readlines <bound_method b5ed2880 <io.TextIOWrapper 2>.<function>>
+            seek <bound_method b5ed29e0 <io.TextIOWrapper 2>.<function>>
+            tell <bound_method b5ed2b40 <io.TextIOWrapper 2>.<function>>
+          stdin <io.TextIOWrapper 0>
+            __enter__ <bound_method b5ed2ef0 <io.TextIOWrapper 0>.<function>>
+            __exit__ <bound_method b5ed2f10 <io.TextIOWrapper 0>.<function>>
+            __next__ <bound_method b5ed30c0 <io.TextIOWrapper 0>.<function>>
+            close <bound_method b5ed3220 <io.TextIOWrapper 0>.<function>>
+            read <bound_method b5ed3380 <io.TextIOWrapper 0>.<function>>
+            readinto <bound_method b5ed34e0 <io.TextIOWrapper 0>.<function>>
+            readline <bound_method b5ed3640 <io.TextIOWrapper 0>.<function>>
+            write <bound_method b5ed37a0 <io.TextIOWrapper 0>.<function>>
+            fileno <bound_method b5ed3900 <io.TextIOWrapper 0>.<function>>
+            flush <bound_method b5ed3a60 <io.TextIOWrapper 0>.<function>>
+            readlines <bound_method b5ed3bc0 <io.TextIOWrapper 0>.<function>>
+            seek <bound_method b5ed3d20 <io.TextIOWrapper 0>.<function>>
+            tell <bound_method b5ed3e80 <io.TextIOWrapper 0>.<function>>
+          stdout <io.TextIOWrapper 1>
+            __enter__ <bound_method b5ed4240 <io.TextIOWrapper 1>.<function>>
+            __exit__ <bound_method b5ed4260 <io.TextIOWrapper 1>.<function>>
+            __next__ <bound_method b5ed4410 <io.TextIOWrapper 1>.<function>>
+            close <bound_method b5ed4570 <io.TextIOWrapper 1>.<function>>
+            read <bound_method b5ed46d0 <io.TextIOWrapper 1>.<function>>
+            readinto <bound_method b5ed4830 <io.TextIOWrapper 1>.<function>>
+            readline <bound_method b5ed4990 <io.TextIOWrapper 1>.<function>>
+            write <bound_method b5ed4af0 <io.TextIOWrapper 1>.<function>>
+            fileno <bound_method b5ed4c50 <io.TextIOWrapper 1>.<function>>
+            flush <bound_method b5ed4db0 <io.TextIOWrapper 1>.<function>>
+            readlines <bound_method b5ed4f10 <io.TextIOWrapper 1>.<function>>
+            seek <bound_method b5ed5070 <io.TextIOWrapper 1>.<function>>
+            tell <bound_method b5ed51d0 <io.TextIOWrapper 1>.<function>>
+          version 3.4.0
+          version_info (3, 4, 0)
+        v 0
+        libc <function libc at 0xb5e85970>
+        _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+        bitness 32
+      libc <ffimod b6faf6a8>
+        close <bound_method b5ed5bd0 <ffimod b6faf6a8>.<function>>
+        addr <bound_method b5ed5bf0 <ffimod b6faf6a8>.<function>>
+        func <bound_method b5ed5d80 <ffimod b6faf6a8>.<function>>
+        var <bound_method b5ed5ec0 <ffimod b6faf6a8>.<function>>
+      check_error <function check_error at 0xb5e88860>
+      errno_ <module 'errno'>
+        E2BIG 7
+        EACCES 13
+        EAFNOSUPPORT 97
+        EAGAIN 11
+        EBADF 9
+        EBUSY 16
+        ECHILD 10
+        ECONNRESET 104
+        EDOM 33
+        EEXIST 17
+        EFAULT 14
+        EFBIG 27
+        EINPROGRESS 115
+        EINTR 4
+        EINVAL 22
+        EIO 5
+        EISDIR 21
+        EMFILE 24
+        EMLINK 31
+        ENFILE 23
+        ENODEV 19
+        ENOENT 2
+        ENOEXEC 8
+        ENOMEM 12
+        ENOSPC 28
+        ENOTBLK 15
+        ENOTDIR 20
+        ENOTTY 25
+        ENXIO 6
+        EPERM 1
+        EPIPE 32
+        ERANGE 34
+        EROFS 30
+        ESPIPE 29
+        ESRCH 3
+        ETIMEDOUT 110
+        ETXTBSY 26
+        EXDEV 18
+      stat_ <module 'stat'>
+        S_ISDIR <function S_ISDIR at 0xb5e87a60>
+        ST_MODE 0
+        ST_INO 1
+        ST_DEV 2
+        ST_NLINK 3
+        ST_UID 4
+        ST_GID 5
+        ST_SIZE 6
+        ST_ATIME 7
+        ST_MTIME 8
+        ST_CTIME 9
+        S_IMODE <function S_IMODE at 0xb5e878e0>
+        S_IFMT <function S_IFMT at 0xb5e87a50>
+        S_IFDIR 16384
+        S_IFCHR 8192
+        S_IFBLK 24576
+        S_IFREG 32768
+        S_IFIFO 4096
+        S_IFLNK 40960
+        S_IFSOCK 49152
+        S_ISCHR <function S_ISCHR at 0xb5e88450>
+        S_ISBLK <function S_ISBLK at 0xb5e88460>
+        S_ISREG <function S_ISREG at 0xb5e88470>
+        S_ISFIFO <function S_ISFIFO at 0xb5e88570>
+        S_ISLNK <function S_ISLNK at 0xb5e88580>
+        S_ISSOCK <function S_ISSOCK at 0xb5e88590>
+        S_ISUID 2048
+        S_ISGID 1024
+        S_ENFMT 1024
+        S_ISVTX 512
+        S_IREAD 256
+        S_IWRITE 128
+        S_IEXEC 64
+        S_IRWXU 448
+        S_IRUSR 256
+        S_IWUSR 128
+        S_IXUSR 64
+        S_IRWXG 56
+        S_IRGRP 32
+        S_IWGRP 16
+        S_IXGRP 8
+        S_IRWXO 7
+        S_IROTH 4
+        S_IWOTH 2
+        S_IXOTH 1
+        UF_NODUMP 1
+        UF_IMMUTABLE 2
+        UF_APPEND 4
+        UF_OPAQUE 8
+        UF_NOUNLINK 16
+        UF_COMPRESSED 32
+        UF_HIDDEN 32768
+        SF_ARCHIVED 65536
+        SF_IMMUTABLE 131072
+        SF_APPEND 262144
+        SF_NOUNLINK 1048576
+        SF_SNAPSHOT 2097152
+        _filemode_table (((40960, 'l'), (32768, '-'), (24576, 'b'), (16384, 'd'), (8192, 'c'), (4096, 'p')), ((256, 'r'),), ((128, 'w'),), ((2112, 's'), (2048, 'S'), (64, 'x')), ((32, 'r'),), ((16, 'w'),), ((1032, 's'), (1024, 'S'), (8, 'x')), ((4, 'r'),), ((2, 'w'),), ((513, 't'), (512, 'T'), (1, 'x')))
+        filemode <function filemode at 0xb5e88710>
+      R_OK 4
+      W_OK 2
+      X_OK 1
+      F_OK 0
+      O_ACCMODE 3
+      O_RDONLY 0
+      O_WRONLY 1
+      O_RDWR 2
+      O_CREAT 64
+      O_EXCL 128
+      O_NOCTTY 256
+      O_TRUNC 512
+      O_APPEND 1024
+      O_NONBLOCK 2048
+      error <class 'OSError'>
+      curdir .
+      pardir ..
+      environ {'WARNING': 'NOT_IMPLEMENTED'}
+      chdir <function chdir at 0xb5e89310>
+      chdir_ <ffifunc b6ac29d0>
+      mkdir_ <ffifunc b6ac1a90>
+      rename_ <ffifunc b6a55550>
+      unlink <function unlink at 0xb5e893d0>
+      unlink_ <ffifunc b6ac3bb0>
+      rmdir_ <ffifunc b6ac3bf0>
+      getcwd <function getcwd at 0xb5e88880>
+      getcwd_ <ffifunc b6ac2a0c>
+      opendir_ <ffifunc b6a96684>
+      readdir_ <ffifunc b6a96778>
+      open_ <ffifunc b6ac1af0>
+      read_ <ffifunc b6ac1fa0>
+      write_ <ffifunc b6ac2030>
+      close_ <ffifunc b6ac2810>
+      dup <function dup at 0xb5e892f0>
+      dup_ <ffifunc b6ac2880>
+      access <function access at 0xb5e89300>
+      access_ <ffifunc b6ac20c0>
+      fork_ <ffifunc b6a9c42c>
+      pipe <function pipe at 0xb5e89330>
+      pipe_ <ffifunc b6ac28e0>
+      _exit <function _exit at 0xb5e89340>
+      _exit_ <ffifunc b6a9c804>
+      getpid <function getpid at 0xb5e89360>
+      getpid_ <ffifunc b6a9cfe0>
+      waitpid <function waitpid at 0xb5e89370>
+      waitpid_ <ffifunc b6a9c00c>
+      system_ <ffifunc b6a33534>
+      execvp <function execvp at 0xb5e89350>
+      execvp_ <ffifunc b6a9cb9c>
+      kill <function kill at 0xb5e89380>
+      kill_ <ffifunc b6a27280>
+      getenv_ <ffifunc b6a290d4>
+      raise_error <function raise_error at 0xb5e88870>
+      makedirs <function makedirs at 0xb5e89210>
+      listdir <function listdir at 0xb5e89240>
+      walk <generator>
+      fsencode <function fsencode at 0xb5e893e0>
+      fsdecode <function fsdecode at 0xb5e893f0>
+      popen <function popen at 0xb5e89420>
+    signal <function signal at 0xb5e899a0>
+    libc <ffimod b6faf6a8>
+      close <bound_method b5ee0780 <ffimod b6faf6a8>.<function>>
+      addr <bound_method b5ee07a0 <ffimod b6faf6a8>.<function>>
+      func <bound_method b5ee0930 <ffimod b6faf6a8>.<function>>
+      var <bound_method b5ee0a60 <ffimod b6faf6a8>.<function>>
+    librt <ffimod b6fafc80>
+      close <bound_method b5ee0d70 <ffimod b6fafc80>.<function>>
+      addr <bound_method b5ee0d90 <ffimod b6fafc80>.<function>>
+      func <bound_method b5ee0f20 <ffimod b6fafc80>.<function>>
+      var <bound_method b5ee1050 <ffimod b6fafc80>.<function>>
+    CLOCK_REALTIME 0
+    CLOCK_MONOTONIC 1
+    SIGEV_SIGNAL 0
+    sigval_t {'sival_int': 671088640, 'sival_ptr': (536870912, 0)}
+    sigevent_t {'sigev_notify': 671088652, 'sigev_value': (0, {'sival_int': 671088640, 'sival_ptr': (536870912, 0)}), 'sigev_signo': 671088648}
+    timespec_t {'tv_nsec': 939524104, 'tv_sec': 671088640}
+    itimerspec_t {'it_interval': (0, {'tv_nsec': 939524104, 'tv_sec': 671088640}), 'it_value': (16, {'tv_nsec': 939524104, 'tv_sec': 671088640})}
+    __libc_current_sigrtmin <ffifunc b6a27ca8>
+    SIGRTMIN 34
+    timer_create_ <ffifunc b69b7afc>
+    timer_settime_ <ffifunc b69b7f10>
+    new <function new at 0xb5e8a0d0>
+    timer_create <function timer_create at 0xb5e8a0e0>
+    timer_settime <function timer_settime at 0xb5e8a0f0>
+    SIG_DFL 0
+    SIG_IGN 1
+    SIGPIPE 13
+    signal_i <ffifunc b6a26f00>
+    signal_p <ffifunc b6a26f00>
+  pin <module 'machine.pin'>
+    umachine <module 'umachine'>
+      PinBase <class 'PinBase'>
+      Signal <class 'Signal'>
+        value <function>
+        off <function>
+        on <function>
+      mem16 <16-bit memory>
+      mem32 <32-bit memory>
+      mem8 <8-bit memory>
+      time_pulse_us <function>
+    Pin <class 'Pin'>
+      __init__ <function __init__ at 0xb5e8a860>
+      __module__ machine.pin
+      __qualname__ Pin
+      value <function value at 0xb5e8a8b0>
+      IN in
+      OUT out
+      deinit <function deinit at 0xb5e8a850>
+  unique_id <function unique_id at 0xb5e8a320>
+  ffilib <module 'ffilib'>
+    open <function open at 0xb5e85c60>
+    ffi <module 'ffi'>
+      open <function>
+      as_bytearray <function>
+      callback <function>
+      func <function>
+    sys <module 'sys'>
+      argv ['/home/robot/objdump/main.py']
+      byteorder little
+      exit <function>
+      getsizeof <function>
+      implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
+      maxsize 2147483647
+      modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+      path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
+      platform linux
+      print_exception <function>
+      stderr <io.TextIOWrapper 2>
+        __enter__ <bound_method b5ee5df0 <io.TextIOWrapper 2>.<function>>
+        __exit__ <bound_method b5ee5e10 <io.TextIOWrapper 2>.<function>>
+        __next__ <bound_method b5ee5fc0 <io.TextIOWrapper 2>.<function>>
+        close <bound_method b5ee6120 <io.TextIOWrapper 2>.<function>>
+        read <bound_method b5ee6280 <io.TextIOWrapper 2>.<function>>
+        readinto <bound_method b5ee63c0 <io.TextIOWrapper 2>.<function>>
+        readline <bound_method b5ee6500 <io.TextIOWrapper 2>.<function>>
+        write <bound_method b5ee6660 <io.TextIOWrapper 2>.<function>>
+        fileno <bound_method b5ee67c0 <io.TextIOWrapper 2>.<function>>
+        flush <bound_method b5ee6900 <io.TextIOWrapper 2>.<function>>
+        readlines <bound_method b5ee6a40 <io.TextIOWrapper 2>.<function>>
+        seek <bound_method b5ee6b80 <io.TextIOWrapper 2>.<function>>
+        tell <bound_method b5ee6ce0 <io.TextIOWrapper 2>.<function>>
+      stdin <io.TextIOWrapper 0>
+        __enter__ <bound_method b5ee7040 <io.TextIOWrapper 0>.<function>>
+        __exit__ <bound_method b5ee7060 <io.TextIOWrapper 0>.<function>>
+        __next__ <bound_method b5ee7210 <io.TextIOWrapper 0>.<function>>
+        close <bound_method b5ee7370 <io.TextIOWrapper 0>.<function>>
+        read <bound_method b5ee74d0 <io.TextIOWrapper 0>.<function>>
+        readinto <bound_method b5ee7610 <io.TextIOWrapper 0>.<function>>
+        readline <bound_method b5ee7750 <io.TextIOWrapper 0>.<function>>
+        write <bound_method b5ee78b0 <io.TextIOWrapper 0>.<function>>
+        fileno <bound_method b5ee7a10 <io.TextIOWrapper 0>.<function>>
+        flush <bound_method b5ee7b50 <io.TextIOWrapper 0>.<function>>
+        readlines <bound_method b5ee7c90 <io.TextIOWrapper 0>.<function>>
+        seek <bound_method b5ee7dd0 <io.TextIOWrapper 0>.<function>>
+        tell <bound_method b5ee7f30 <io.TextIOWrapper 0>.<function>>
+      stdout <io.TextIOWrapper 1>
+        __enter__ <bound_method b5ee8290 <io.TextIOWrapper 1>.<function>>
+        __exit__ <bound_method b5ee82b0 <io.TextIOWrapper 1>.<function>>
+        __next__ <bound_method b5ee8460 <io.TextIOWrapper 1>.<function>>
+        close <bound_method b5ee85c0 <io.TextIOWrapper 1>.<function>>
+        read <bound_method b5ee8720 <io.TextIOWrapper 1>.<function>>
+        readinto <bound_method b5ee8860 <io.TextIOWrapper 1>.<function>>
+        readline <bound_method b5ee89a0 <io.TextIOWrapper 1>.<function>>
+        write <bound_method b5ee8b00 <io.TextIOWrapper 1>.<function>>
+        fileno <bound_method b5ee8c60 <io.TextIOWrapper 1>.<function>>
+        flush <bound_method b5ee8da0 <io.TextIOWrapper 1>.<function>>
+        readlines <bound_method b5ee8ee0 <io.TextIOWrapper 1>.<function>>
+        seek <bound_method b5ee9020 <io.TextIOWrapper 1>.<function>>
+        tell <bound_method b5ee9180 <io.TextIOWrapper 1>.<function>>
+      version 3.4.0
+      version_info (3, 4, 0)
+    v 0
+    libc <function libc at 0xb5e85970>
+    _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+    bitness 32
+  os <module 'os'>
+    close <function close at 0xb5e892e0>
+    open <function open at 0xb5e892a0>
+    read <function read at 0xb5e892c0>
+    remove <function unlink at 0xb5e893d0>
+    sep /
+    write <function write at 0xb5e892d0>
+    array <module 'array'>
+      array <class 'array'>
+        append <function>
+        extend <function>
+        decode <function>
+    getenv <function getenv at 0xb5e893b0>
+    ilistdir <function>
+    mkdir <function mkdir at 0xb5e88ff0>
+    name posix
+    rename <function rename at 0xb5e89010>
+    rmdir <function rmdir at 0xb5e891f0>
+    stat <function>
+    struct <module 'ustruct'>
+      calcsize <function>
+      pack <function>
+      pack_into <function>
+      unpack <function>
+      unpack_from <function>
+    system <function system at 0xb5e89390>
+    uos <module 'uos'>
+      remove <function>
+      errno <function>
+      getenv <function>
+      ilistdir <function>
+      mkdir <function>
+      rename <function>
+      rmdir <function>
+      stat <function>
+      statvfs <function>
+      system <function>
+    urandom <function urandom at 0xb5e89400>
+    fork <function fork at 0xb5e89320>
+    ffilib <module 'ffilib'>
+      open <function open at 0xb5e85c60>
+      ffi <module 'ffi'>
+        open <function>
+        as_bytearray <function>
+        callback <function>
+        func <function>
+      sys <module 'sys'>
+        argv ['/home/robot/objdump/main.py']
+        byteorder little
+        exit <function>
+        getsizeof <function>
+        implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
+        maxsize 2147483647
+        modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+        path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
+        platform linux
+        print_exception <function>
+        stderr <io.TextIOWrapper 2>
+          __enter__ <bound_method b5eee210 <io.TextIOWrapper 2>.<function>>
+          __exit__ <bound_method b5eee230 <io.TextIOWrapper 2>.<function>>
+          __next__ <bound_method b5eee3e0 <io.TextIOWrapper 2>.<function>>
+          close <bound_method b5eee540 <io.TextIOWrapper 2>.<function>>
+          read <bound_method b5eee6a0 <io.TextIOWrapper 2>.<function>>
+          readinto <bound_method b5eee7f0 <io.TextIOWrapper 2>.<function>>
+          readline <bound_method b5eee930 <io.TextIOWrapper 2>.<function>>
+          write <bound_method b5eeea90 <io.TextIOWrapper 2>.<function>>
+          fileno <bound_method b5eeebf0 <io.TextIOWrapper 2>.<function>>
+          flush <bound_method b5eeed40 <io.TextIOWrapper 2>.<function>>
+          readlines <bound_method b5eeeea0 <io.TextIOWrapper 2>.<function>>
+          seek <bound_method b5eeeff0 <io.TextIOWrapper 2>.<function>>
+          tell <bound_method b5eef150 <io.TextIOWrapper 2>.<function>>
+        stdin <io.TextIOWrapper 0>
+          __enter__ <bound_method b5eef4b0 <io.TextIOWrapper 0>.<function>>
+          __exit__ <bound_method b5eef4d0 <io.TextIOWrapper 0>.<function>>
+          __next__ <bound_method b5eef680 <io.TextIOWrapper 0>.<function>>
+          close <bound_method b5eef7e0 <io.TextIOWrapper 0>.<function>>
+          read <bound_method b5eef940 <io.TextIOWrapper 0>.<function>>
+          readinto <bound_method b5eefa90 <io.TextIOWrapper 0>.<function>>
+          readline <bound_method b5eefbd0 <io.TextIOWrapper 0>.<function>>
+          write <bound_method b5eefd30 <io.TextIOWrapper 0>.<function>>
+          fileno <bound_method b5eefe90 <io.TextIOWrapper 0>.<function>>
+          flush <bound_method b5eeffe0 <io.TextIOWrapper 0>.<function>>
+          readlines <bound_method b5ef0140 <io.TextIOWrapper 0>.<function>>
+          seek <bound_method b5ef0290 <io.TextIOWrapper 0>.<function>>
+          tell <bound_method b5ef03f0 <io.TextIOWrapper 0>.<function>>
+        stdout <io.TextIOWrapper 1>
+          __enter__ <bound_method b5ef0750 <io.TextIOWrapper 1>.<function>>
+          __exit__ <bound_method b5ef0770 <io.TextIOWrapper 1>.<function>>
+          __next__ <bound_method b5ef0920 <io.TextIOWrapper 1>.<function>>
+          close <bound_method b5ef0a80 <io.TextIOWrapper 1>.<function>>
+          read <bound_method b5ef0be0 <io.TextIOWrapper 1>.<function>>
+          readinto <bound_method b5ef0d30 <io.TextIOWrapper 1>.<function>>
+          readline <bound_method b5ef0e70 <io.TextIOWrapper 1>.<function>>
+          write <bound_method b5ef0fd0 <io.TextIOWrapper 1>.<function>>
+          fileno <bound_method b5ef1130 <io.TextIOWrapper 1>.<function>>
+          flush <bound_method b5ef1280 <io.TextIOWrapper 1>.<function>>
+          readlines <bound_method b5ef13e0 <io.TextIOWrapper 1>.<function>>
+          seek <bound_method b5ef1530 <io.TextIOWrapper 1>.<function>>
+          tell <bound_method b5ef1690 <io.TextIOWrapper 1>.<function>>
+        version 3.4.0
+        version_info (3, 4, 0)
+      v 0
+      libc <function libc at 0xb5e85970>
+      _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+      bitness 32
+    libc <ffimod b6faf6a8>
+      close <bound_method b5ef2020 <ffimod b6faf6a8>.<function>>
+      addr <bound_method b5ef2040 <ffimod b6faf6a8>.<function>>
+      func <bound_method b5ef21d0 <ffimod b6faf6a8>.<function>>
+      var <bound_method b5ef2300 <ffimod b6faf6a8>.<function>>
+    check_error <function check_error at 0xb5e88860>
+    errno_ <module 'errno'>
+      E2BIG 7
+      EACCES 13
+      EAFNOSUPPORT 97
+      EAGAIN 11
+      EBADF 9
+      EBUSY 16
+      ECHILD 10
+      ECONNRESET 104
+      EDOM 33
+      EEXIST 17
+      EFAULT 14
+      EFBIG 27
+      EINPROGRESS 115
+      EINTR 4
+      EINVAL 22
+      EIO 5
+      EISDIR 21
+      EMFILE 24
+      EMLINK 31
+      ENFILE 23
+      ENODEV 19
+      ENOENT 2
+      ENOEXEC 8
+      ENOMEM 12
+      ENOSPC 28
+      ENOTBLK 15
+      ENOTDIR 20
+      ENOTTY 25
+      ENXIO 6
+      EPERM 1
+      EPIPE 32
+      ERANGE 34
+      EROFS 30
+      ESPIPE 29
+      ESRCH 3
+      ETIMEDOUT 110
+      ETXTBSY 26
+      EXDEV 18
+    stat_ <module 'stat'>
+      S_ISDIR <function S_ISDIR at 0xb5e87a60>
+      ST_MODE 0
+      ST_INO 1
+      ST_DEV 2
+      ST_NLINK 3
+      ST_UID 4
+      ST_GID 5
+      ST_SIZE 6
+      ST_ATIME 7
+      ST_MTIME 8
+      ST_CTIME 9
+      S_IMODE <function S_IMODE at 0xb5e878e0>
+      S_IFMT <function S_IFMT at 0xb5e87a50>
+      S_IFDIR 16384
+      S_IFCHR 8192
+      S_IFBLK 24576
+      S_IFREG 32768
+      S_IFIFO 4096
+      S_IFLNK 40960
+      S_IFSOCK 49152
+      S_ISCHR <function S_ISCHR at 0xb5e88450>
+      S_ISBLK <function S_ISBLK at 0xb5e88460>
+      S_ISREG <function S_ISREG at 0xb5e88470>
+      S_ISFIFO <function S_ISFIFO at 0xb5e88570>
+      S_ISLNK <function S_ISLNK at 0xb5e88580>
+      S_ISSOCK <function S_ISSOCK at 0xb5e88590>
+      S_ISUID 2048
+      S_ISGID 1024
+      S_ENFMT 1024
+      S_ISVTX 512
+      S_IREAD 256
+      S_IWRITE 128
+      S_IEXEC 64
+      S_IRWXU 448
+      S_IRUSR 256
+      S_IWUSR 128
+      S_IXUSR 64
+      S_IRWXG 56
+      S_IRGRP 32
+      S_IWGRP 16
+      S_IXGRP 8
+      S_IRWXO 7
+      S_IROTH 4
+      S_IWOTH 2
+      S_IXOTH 1
+      UF_NODUMP 1
+      UF_IMMUTABLE 2
+      UF_APPEND 4
+      UF_OPAQUE 8
+      UF_NOUNLINK 16
+      UF_COMPRESSED 32
+      UF_HIDDEN 32768
+      SF_ARCHIVED 65536
+      SF_IMMUTABLE 131072
+      SF_APPEND 262144
+      SF_NOUNLINK 1048576
+      SF_SNAPSHOT 2097152
+      _filemode_table (((40960, 'l'), (32768, '-'), (24576, 'b'), (16384, 'd'), (8192, 'c'), (4096, 'p')), ((256, 'r'),), ((128, 'w'),), ((2112, 's'), (2048, 'S'), (64, 'x')), ((32, 'r'),), ((16, 'w'),), ((1032, 's'), (1024, 'S'), (8, 'x')), ((4, 'r'),), ((2, 'w'),), ((513, 't'), (512, 'T'), (1, 'x')))
+      filemode <function filemode at 0xb5e88710>
+    R_OK 4
+    W_OK 2
+    X_OK 1
+    F_OK 0
+    O_ACCMODE 3
+    O_RDONLY 0
+    O_WRONLY 1
+    O_RDWR 2
+    O_CREAT 64
+    O_EXCL 128
+    O_NOCTTY 256
+    O_TRUNC 512
+    O_APPEND 1024
+    O_NONBLOCK 2048
+    error <class 'OSError'>
+    curdir .
+    pardir ..
+    environ {'WARNING': 'NOT_IMPLEMENTED'}
+    chdir <function chdir at 0xb5e89310>
+    chdir_ <ffifunc b6ac29d0>
+    mkdir_ <ffifunc b6ac1a90>
+    rename_ <ffifunc b6a55550>
+    unlink <function unlink at 0xb5e893d0>
+    unlink_ <ffifunc b6ac3bb0>
+    rmdir_ <ffifunc b6ac3bf0>
+    getcwd <function getcwd at 0xb5e88880>
+    getcwd_ <ffifunc b6ac2a0c>
+    opendir_ <ffifunc b6a96684>
+    readdir_ <ffifunc b6a96778>
+    open_ <ffifunc b6ac1af0>
+    read_ <ffifunc b6ac1fa0>
+    write_ <ffifunc b6ac2030>
+    close_ <ffifunc b6ac2810>
+    dup <function dup at 0xb5e892f0>
+    dup_ <ffifunc b6ac2880>
+    access <function access at 0xb5e89300>
+    access_ <ffifunc b6ac20c0>
+    fork_ <ffifunc b6a9c42c>
+    pipe <function pipe at 0xb5e89330>
+    pipe_ <ffifunc b6ac28e0>
+    _exit <function _exit at 0xb5e89340>
+    _exit_ <ffifunc b6a9c804>
+    getpid <function getpid at 0xb5e89360>
+    getpid_ <ffifunc b6a9cfe0>
+    waitpid <function waitpid at 0xb5e89370>
+    waitpid_ <ffifunc b6a9c00c>
+    system_ <ffifunc b6a33534>
+    execvp <function execvp at 0xb5e89350>
+    execvp_ <ffifunc b6a9cb9c>
+    kill <function kill at 0xb5e89380>
+    kill_ <ffifunc b6a27280>
+    getenv_ <ffifunc b6a290d4>
+    raise_error <function raise_error at 0xb5e88870>
+    makedirs <function makedirs at 0xb5e89210>
+    listdir <function listdir at 0xb5e89240>
+    walk <generator>
+    fsencode <function fsencode at 0xb5e893e0>
+    fsdecode <function fsdecode at 0xb5e893f0>
+    popen <function popen at 0xb5e89420>
+  signal <function signal at 0xb5e899a0>
+  libc <ffimod b6faf6a8>
+    close <bound_method b5efc380 <ffimod b6faf6a8>.<function>>
+    addr <bound_method b5efc3a0 <ffimod b6faf6a8>.<function>>
+    func <bound_method b5efc520 <ffimod b6faf6a8>.<function>>
+    var <bound_method b5efc650 <ffimod b6faf6a8>.<function>>
+  librt <ffimod b6fafc80>
+    close <bound_method b5efc940 <ffimod b6fafc80>.<function>>
+    addr <bound_method b5efc960 <ffimod b6fafc80>.<function>>
+    func <bound_method b5efcae0 <ffimod b6fafc80>.<function>>
+    var <bound_method b5efcc10 <ffimod b6fafc80>.<function>>
+  CLOCK_REALTIME 0
+  CLOCK_MONOTONIC 1
+  SIGEV_SIGNAL 0
+  sigval_t {'sival_int': 671088640, 'sival_ptr': (536870912, 0)}
+  sigevent_t {'sigev_notify': 671088652, 'sigev_value': (0, {'sival_int': 671088640, 'sival_ptr': (536870912, 0)}), 'sigev_signo': 671088648}
+  timespec_t {'tv_nsec': 939524104, 'tv_sec': 671088640}
+  itimerspec_t {'it_interval': (0, {'tv_nsec': 939524104, 'tv_sec': 671088640}), 'it_value': (16, {'tv_nsec': 939524104, 'tv_sec': 671088640})}
+  SIGRTMIN 34
+  timer_create_ <ffifunc b69b7afc>
+  timer_settime_ <ffifunc b69b7f10>
+  new <function new at 0xb5e8a0d0>
+  timer_create <function timer_create at 0xb5e8a0e0>
+  timer_settime <function timer_settime at 0xb5e8a0f0>
+  SIG_DFL 0
+  SIG_IGN 1
+  SIGPIPE 13
+  signal_i <ffifunc b6a26f00>
+  signal_p <ffifunc b6a26f00>
+  Pin <class 'Pin'>
+    __init__ <function __init__ at 0xb5e8a860>
+    __module__ machine.pin
+    __qualname__ Pin
+    value <function value at 0xb5e8a8b0>
+    IN in
+    OUT out
+    deinit <function deinit at 0xb5e8a850>
+ <EV3Brick>
+  battery <module 'battery'>
+    current <function>
+    voltage <function>
+  buttons <module 'buttons'>
+    pressed <function>
+  light <ColorLight>
+    off <bound_method b5eff0d0 <ColorLight>.<function>>
+    on <bound_method b5eff0e0 <ColorLight>.<function>>
+  screen <Image>
+    clear <bound_method b5eff410 <Image>.<function>>
+    print <bound_method b5eff420 <Image>.<function>>
+    __del__ <bound_method b5eff590 <Image>.<function>>
+    draw_box <bound_method b5eff6b0 <Image>.<function>>
+    draw_circle <bound_method b5eff7d0 <Image>.<function>>
+    draw_image <bound_method b5eff8f0 <Image>.<function>>
+    draw_line <bound_method b5effa20 <Image>.<function>>
+    draw_pixel <bound_method b5effb40 <Image>.<function>>
+    draw_text <bound_method b5effc60 <Image>.<function>>
+    empty <function>
+    height 128
+    load_image <bound_method b5effd80 <Image>.<function>>
+    save <bound_method b5f00050 <Image>.<function>>
+    set_font <bound_method b5f00170 <Image>.<function>>
+    width 178
+  speaker <Speaker>
+    beep <bound_method b5f00510 <Speaker>.<function>>
+    play_file <bound_method b5f00520 <Speaker>.<function>>
+    play_notes <bound_method b5f00690 <Speaker>.<function>>
+    say <bound_method b5f007b0 <Speaker>.<function>>
+    set_speech_options <bound_method b5f008d0 <Speaker>.<function>>
+    set_volume <bound_method b5f009f0 <Speaker>.<function>>
+----------
+Completed successfully.
