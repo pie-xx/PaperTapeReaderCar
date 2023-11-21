@@ -7,6 +7,9 @@ from pybricks.parameters import Port, Stop, Direction, Button, Color
 from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
+from pybricks.iodevices import UARTDevice
+from pybricks.nxtdevices import VernierAdapter
+from pybricks.messaging import BluetoothMailboxServer, TextMailbox
 
 import pybricks
 import machine
@@ -19,7 +22,7 @@ def recursive_dir(obj, pname="", depth=0, max_depth=6):
     if depth > max_depth:
         return
 
-    # マブジェクト名と属性名を表示
+    # オブジェクト名とタイプを表示
     print('  ' * depth + pname + " " + str(obj) )
 
     # オブジェクトの属性一覧を取得
@@ -27,10 +30,12 @@ def recursive_dir(obj, pname="", depth=0, max_depth=6):
 
     if( len(attributes) < 2 ):
         return
+
     if( not str(obj).startswith("<") ):
         return
 
-    # 属性一覧を表示
+    # 属性値がオブジェクトなら再帰的に属性を調べる
+
     for attribute in attributes:
         if( attribute == '__class__'):
               continue
@@ -42,9 +47,6 @@ def recursive_dir(obj, pname="", depth=0, max_depth=6):
         # 属性値を取得
         if hasattr(obj, attribute):
             attr_value = getattr(obj, attribute)
-
-            # 属性値がオブジェクトなら再帰的に属性を調べる
-            #if hasattr(attr_value, '__name__'):
             recursive_dir(attr_value, attribute, depth + 1, max_depth)
 
 
@@ -52,12 +54,15 @@ def recursive_dir(obj, pname="", depth=0, max_depth=6):
 # Create your objects here.
 ev3 = EV3Brick()
 
+ev3.speaker.say("Hello, I am LEGO Mindstorms EV3.")
+
 ev3.speaker.say("Dump pybricks.")
 recursive_dir(pybricks)
 
 ev3.speaker.say("Dump machine.")
 recursive_dir(machine)
 
+ev3.speaker.say("Dump EV3Brick()")
 recursive_dir(EV3Brick())
 
 ev3.speaker.say("Job finished.")

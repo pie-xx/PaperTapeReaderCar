@@ -19,7 +19,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     Motor <class 'Motor'>
       __module__ pybricks.ev3devices
       __qualname__ Motor
-      stop <closure <function stop at 0xb5e84480> at b5e84410, n_closed=1 <cell b5e84940 <class 'Motor'>> >
+      stop <closure <function stop at 0xb5eb65d0> at b5eb6560, n_closed=1 <cell b5eb6a90 <class 'Motor'>> >
       angle <function>
       brake <function>
       dc <function>
@@ -31,11 +31,11 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       run_time <function>
       run_until_stalled <function>
       speed <function>
-      stalled <function stalled at 0xb5e81390>
+      stalled <function stalled at 0xb5eb3390>
       track_target <function>
-      set_dc_settings <function set_dc_settings at 0xb5e848c0>
-      set_run_settings <function set_run_settings at 0xb5e848a0>
-      set_pid_settings <function set_pid_settings at 0xb5e848b0>
+      set_dc_settings <function set_dc_settings at 0xb5eb6a10>
+      set_run_settings <function set_run_settings at 0xb5eb69f0>
+      set_pid_settings <function set_pid_settings at 0xb5eb6a00>
     Stop <class 'Stop'>
       BRAKE Stop.BRAKE
       COAST Stop.COAST
@@ -66,6 +66,67 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         voltage <function>
       buttons <module 'buttons'>
         pressed <function>
+  iodevices <module 'pybricks.iodevices'>
+    AnalogSensor <class 'AnalogSensor'>
+      active <function>
+      passive <function>
+      resistance <function>
+      voltage <function>
+    DCMotor <class 'DCMotor'>
+      stop <function>
+      brake <function>
+      dc <function>
+    Ev3devSensor <class ''>
+      read <function>
+    I2CDevice <class 'I2CDevice'>
+      read <function>
+      write <function>
+    LUMPDevice <class ''>
+      read <function>
+      write <function>
+    UARTDevice <class 'UARTDevice'>
+      clear <function>
+      read <function>
+      write <function>
+      read_all <function>
+      waiting <function>
+  nxtdevices <module 'pybricks.nxtdevices'>
+    AnalogSensor <class 'AnalogSensor'>
+      active <function>
+      passive <function>
+      resistance <function>
+      voltage <function>
+    ColorSensor <class 'ColorSensor'>
+      all <function>
+      ambient <function>
+      color <function>
+      reflection <function>
+      rgb <function>
+    EnergyMeter <class 'EnergyMeter'>
+      input <function>
+      output <function>
+      storage <function>
+    LightSensor <class 'LightSensor'>
+      ambient <function>
+      reflection <function>
+    SoundSensor <class 'SoundSensor'>
+      intensity <function>
+    TemperatureSensor <class 'TemperatureSensor'>
+      temperature <function>
+    TouchSensor <class 'TouchSensor'>
+      pressed <function>
+    UltrasonicSensor <class 'UltrasonicSensor'>
+      distance <function>
+    VernierAdapter <class 'VernierAdapter'>
+      __init__ <closure <function __init__ at 0xb5eb70c0> at b5eb6fc0, n_closed=1 <cell b5eb7140 <class 'VernierAdapter'>> >
+      __module__ pybricks.nxtdevices
+      __qualname__ VernierAdapter
+      value <function value at 0xb5eb7100>
+      active <function>
+      passive <function>
+      resistance <function>
+      voltage <function>
+      conversion <function conversion at 0xb5eb6fa0>
   parameters <module 'pybricks.parameters'>
     Button <class 'Button'>
       BEACON Button.BEACON
@@ -278,7 +339,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     DriveBase <class 'DriveBase'>
       __module__ pybricks.robotics
       __qualname__ DriveBase
-      stop <closure <function stop at 0xb5e84cc0> at b5e84ce0, n_closed=1 <cell b5e84d20 <class 'DriveBase'>> >
+      stop <closure <function stop at 0xb5eb6e10> at b5eb6e30, n_closed=1 <cell b5eb6e70 <class 'DriveBase'>> >
       angle <function>
       distance <function>
       drive <function>
@@ -287,7 +348,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       state <function>
       straight <function>
       turn <function>
-      drive_time <function drive_time at 0xb5e84ca0>
+      drive_time <function drive_time at 0xb5eb6df0>
     Stop <class 'Stop'>
       BRAKE Stop.BRAKE
       COAST Stop.COAST
@@ -314,31 +375,31 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     ticks_us <function>
     wait <function>
     DataLog <class 'DataLog'>
-      __init__ <function __init__ at 0xb5e84b20>
+      __init__ <function __init__ at 0xb5eb6c70>
       __module__ pybricks.tools
       __qualname__ DataLog
-      __repr__ <function __repr__ at 0xb5e84af0>
-      log <function log at 0xb5e84ad0>
+      __repr__ <function __repr__ at 0xb5eb6c40>
+      log <function log at 0xb5eb6c20>
   media <module 'pybricks.media'>
     ev3dev <module 'pybricks.media.ev3dev'>
       Font <class 'Font'>
         __del__ <function>
         DEFAULT <Font>
-          __del__ <bound_method b5ea85f0 <Font>.<function>>
+          __del__ <bound_method b5edfc30 <Font>.<function>>
           DEFAULT <Font>
-            __del__ <bound_method b5ea88d0 <Font>.<function>>
+            __del__ <bound_method b5edff10 <Font>.<function>>
             DEFAULT <Font>
             family Lucida
             height 23
             style Sans
-            text_height <bound_method b5ea88e0 <Font>.<function>>
-            text_width <bound_method b5ea8ff0 <Font>.<function>>
+            text_height <bound_method b5edff20 <Font>.<function>>
+            text_width <bound_method b5ee0630 <Font>.<function>>
             width 19
           family Lucida
           height 23
           style Sans
-          text_height <bound_method b5ea8600 <Font>.<function>>
-          text_width <bound_method b5ea9740 <Font>.<function>>
+          text_height <bound_method b5edfc40 <Font>.<function>>
+          text_width <bound_method b5ee0d80 <Font>.<function>>
           width 19
         text_height <function>
         text_width <function>
@@ -514,6 +575,224 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         GENERAL_ALERT /usr/share/sounds/ev3dev/system/general_alert.wav
         OVERPOWER /usr/share/sounds/ev3dev/system/overpower.wav
         READY /usr/share/sounds/ev3dev/system/ready.wav
+  messaging <module 'pybricks.messaging'>
+    ECONNRESET 104
+    allocate_lock <function>
+    pack <function>
+    resolve <function>
+    unpack <function>
+    BDADDR_ANY 00:00:00:00:00:00
+    ThreadingRFCOMMServer <class 'ThreadingRFCOMMServer'>
+      __enter__ <function __enter__ at 0xb5eb73c0>
+      __exit__ <function __exit__ at 0xb5eb73a0>
+      __init__ <function __init__ at 0xb5eb7390>
+      __module__ pybricks.bluetooth
+      __qualname__ ThreadingRFCOMMServer
+      request_queue_size 1
+      handle_request <function handle_request at 0xb5eb73b0>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb73e0>
+      server_close <function server_close at 0xb5eb73f0>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+    StreamRequestHandler <class 'StreamRequestHandler'>
+      __init__ <function __init__ at 0xb5eb76a0>
+      __module__ pybricks.bluetooth
+      __qualname__ StreamRequestHandler
+      setup <function setup at 0xb5eb7690>
+      handle <function handle at 0xb5eb76d0>
+      finish <function finish at 0xb5eb76b0>
+    ThreadingRFCOMMClient <class 'ThreadingRFCOMMClient'>
+      __init__ <function __init__ at 0xb5eb7770>
+      __module__ pybricks.bluetooth
+      __qualname__ ThreadingRFCOMMClient
+      handle_request <function handle_request at 0xb5eb7760>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb7780>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+      client_close <function client_close at 0xb5eb7790>
+    Mailbox <class 'Mailbox'>
+      __init__ <function __init__ at 0xb5eb7200>
+      __module__ pybricks.messaging
+      __qualname__ Mailbox
+      read <function read at 0xb5eb7220>
+      send <function send at 0xb5eb74b0>
+      decode <function decode at 0xb5eb7050>
+      encode <function encode at 0xb5eb7030>
+      wait <function wait at 0xb5eb74d0>
+      wait_new <function wait_new at 0xb5eb77b0>
+    LogicMailbox <class 'LogicMailbox'>
+      __init__ <function __init__ at 0xb5eb7200>
+      __module__ pybricks.messaging
+      __qualname__ LogicMailbox
+      read <function read at 0xb5eb7220>
+      send <function send at 0xb5eb74b0>
+      decode <function decode at 0xb5eb7a60>
+      encode <function encode at 0xb5eb7a70>
+      wait <function wait at 0xb5eb74d0>
+      wait_new <function wait_new at 0xb5eb77b0>
+    NumericMailbox <class 'NumericMailbox'>
+      __init__ <function __init__ at 0xb5eb7200>
+      __module__ pybricks.messaging
+      __qualname__ NumericMailbox
+      read <function read at 0xb5eb7220>
+      send <function send at 0xb5eb74b0>
+      decode <function decode at 0xb5eb7c00>
+      encode <function encode at 0xb5eb7c10>
+      wait <function wait at 0xb5eb74d0>
+      wait_new <function wait_new at 0xb5eb77b0>
+    TextMailbox <class 'TextMailbox'>
+      __init__ <function __init__ at 0xb5eb7200>
+      __module__ pybricks.messaging
+      __qualname__ TextMailbox
+      read <function read at 0xb5eb7220>
+      send <function send at 0xb5eb74b0>
+      decode <function decode at 0xb5eb7b60>
+      encode <function encode at 0xb5eb7b70>
+      wait <function wait at 0xb5eb74d0>
+      wait_new <function wait_new at 0xb5eb77b0>
+    EV3_RFCOMM_CHANNEL 1
+    SYSTEM_COMMAND_NO_REPLY 129
+    WRITEMAILBOX 158
+    MailboxHandler <class 'MailboxHandler'>
+      __init__ <function __init__ at 0xb5eb76a0>
+      __module__ pybricks.messaging
+      __qualname__ MailboxHandler
+      setup <function setup at 0xb5eb7690>
+      handle <function handle at 0xb5eb7da0>
+      finish <function finish at 0xb5eb76b0>
+    MailboxHandlerMixIn <class 'MailboxHandlerMixIn'>
+      __init__ <function __init__ at 0xb5eb7cc0>
+      __module__ pybricks.messaging
+      __qualname__ MailboxHandlerMixIn
+      read_from_mailbox <function read_from_mailbox at 0xb5eb7cb0>
+      send_to_mailbox <function send_to_mailbox at 0xb5eb7cf0>
+      wait_for_mailbox_update <function wait_for_mailbox_update at 0xb5eb7cd0>
+    BluetoothMailboxServer <class 'BluetoothMailboxServer'>
+      __enter__ <function __enter__ at 0xb5eb73c0>
+      __exit__ <function __exit__ at 0xb5eb73a0>
+      __init__ <closure <function __init__ at 0xb5eb7f50> at b5eb7f60, n_closed=1 <cell b5eb7fc0 <class 'BluetoothMailboxServer'>> >
+      __module__ pybricks.messaging
+      __qualname__ BluetoothMailboxServer
+      request_queue_size 1
+      handle_request <function handle_request at 0xb5eb73b0>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb73e0>
+      server_close <function server_close at 0xb5eb73f0>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+      read_from_mailbox <function read_from_mailbox at 0xb5eb7cb0>
+      send_to_mailbox <function send_to_mailbox at 0xb5eb7cf0>
+      wait_for_mailbox_update <function wait_for_mailbox_update at 0xb5eb7cd0>
+      wait_for_connection <function wait_for_connection at 0xb5eb7f90>
+    MailboxRFCOMMClient <class 'MailboxRFCOMMClient'>
+      __init__ <closure <function __init__ at 0xb5eb8040> at b5eb8050, n_closed=1 <cell b5eb80c0 <class 'MailboxRFCOMMClient'>> >
+      __module__ pybricks.messaging
+      __qualname__ MailboxRFCOMMClient
+      send <function send at 0xb5eb8030>
+      handle_request <function handle_request at 0xb5eb7760>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb8080>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+      client_close <function client_close at 0xb5eb7790>
+    BluetoothMailboxClient <class 'BluetoothMailboxClient'>
+      __enter__ <function __enter__ at 0xb5eb8120>
+      __exit__ <function __exit__ at 0xb5eb8110>
+      __init__ <function __init__ at 0xb5eb7cc0>
+      __module__ pybricks.messaging
+      __qualname__ BluetoothMailboxClient
+      close <function close at 0xb5eb8130>
+      connect <function connect at 0xb5eb8150>
+      read_from_mailbox <function read_from_mailbox at 0xb5eb7cb0>
+      send_to_mailbox <function send_to_mailbox at 0xb5eb7cf0>
+      wait_for_mailbox_update <function wait_for_mailbox_update at 0xb5eb7cd0>
+  bluetooth <module 'pybricks.bluetooth'>
+    ARRAY -1073741824
+    SOCK_STREAM 1
+    UINT16 268435456
+    UINT8 0
+    addressof <function>
+    resolve <function>
+    sizeof <function>
+    socket <class 'socket'>
+      close <function>
+      read <function>
+      readinto <function>
+      readline <function>
+      send <function>
+      write <function>
+      accept <function>
+      bind <function>
+      connect <function>
+      fileno <function>
+      listen <function>
+      makefile <function>
+      recv <function>
+      recvfrom <function>
+      sendto <function>
+      setblocking <function>
+      setsockopt <function>
+      settimeout <function>
+    start_new_thread <function>
+    struct <class 'struct'>
+    AF_BLUETOOTH 31
+    BTPROTO_RFCOMM 3
+    BDADDR_ANY 00:00:00:00:00:00
+    sa_family_t 268435456
+    bd_addr_t {'b': (-1073741824, 6)}
+    sockaddr_rc {'rc_family': 268435456, 'rc_channel': 8, 'rc_bdaddr': (2, {'b': (-1073741824, 6)})}
+    str2ba <function str2ba at 0xb5eb7350>
+    ba2str <function ba2str at 0xb5eb7360>
+    RFCOMMServer <class 'RFCOMMServer'>
+      __enter__ <function __enter__ at 0xb5eb73c0>
+      __exit__ <function __exit__ at 0xb5eb73a0>
+      __init__ <function __init__ at 0xb5eb7390>
+      __module__ pybricks.bluetooth
+      __qualname__ RFCOMMServer
+      request_queue_size 1
+      handle_request <function handle_request at 0xb5eb73b0>
+      process_request <function process_request at 0xb5eb73d0>
+      finish_request <function finish_request at 0xb5eb73e0>
+      server_close <function server_close at 0xb5eb73f0>
+    ThreadingMixIn <class 'ThreadingMixIn'>
+      __module__ pybricks.bluetooth
+      __qualname__ ThreadingMixIn
+      process_request <function process_request at 0xb5eb7570>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+    ThreadingRFCOMMServer <class 'ThreadingRFCOMMServer'>
+      __enter__ <function __enter__ at 0xb5eb73c0>
+      __exit__ <function __exit__ at 0xb5eb73a0>
+      __init__ <function __init__ at 0xb5eb7390>
+      __module__ pybricks.bluetooth
+      __qualname__ ThreadingRFCOMMServer
+      request_queue_size 1
+      handle_request <function handle_request at 0xb5eb73b0>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb73e0>
+      server_close <function server_close at 0xb5eb73f0>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+    StreamRequestHandler <class 'StreamRequestHandler'>
+      __init__ <function __init__ at 0xb5eb76a0>
+      __module__ pybricks.bluetooth
+      __qualname__ StreamRequestHandler
+      setup <function setup at 0xb5eb7690>
+      handle <function handle at 0xb5eb76d0>
+      finish <function finish at 0xb5eb76b0>
+    RFCOMMClient <class 'RFCOMMClient'>
+      __init__ <function __init__ at 0xb5eb7770>
+      __module__ pybricks.bluetooth
+      __qualname__ RFCOMMClient
+      handle_request <function handle_request at 0xb5eb7760>
+      process_request <function process_request at 0xb5eb77a0>
+      finish_request <function finish_request at 0xb5eb7780>
+      client_close <function client_close at 0xb5eb7790>
+    ThreadingRFCOMMClient <class 'ThreadingRFCOMMClient'>
+      __init__ <function __init__ at 0xb5eb7770>
+      __module__ pybricks.bluetooth
+      __qualname__ ThreadingRFCOMMClient
+      handle_request <function handle_request at 0xb5eb7760>
+      process_request <function process_request at 0xb5eb7570>
+      finish_request <function finish_request at 0xb5eb7780>
+      process_request_thread <function process_request_thread at 0xb5eb7580>
+      client_close <function client_close at 0xb5eb7790>
  <module 'machine'>
   PinBase <class 'PinBase'>
   SIGINT 2
@@ -603,11 +882,11 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     ticks_us <function>
     time <function>
   Timer <class 'Timer'>
-    __init__ <function __init__ at 0xb5e8a130>
+    __init__ <function __init__ at 0xb5ebd4b0>
     __module__ machine.timer
     __qualname__ Timer
-    callback <function callback at 0xb5e8a120>
-    handler <function handler at 0xb5e8a160>
+    callback <function callback at 0xb5ebd4a0>
+    handler <function handler at 0xb5ebd4e0>
   timer <module 'machine.timer'>
     SIGINT 2
     SIGTERM 15
@@ -678,13 +957,13 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       ticks_us <function>
       time <function>
     Timer <class 'Timer'>
-      __init__ <function __init__ at 0xb5e8a130>
+      __init__ <function __init__ at 0xb5ebd4b0>
       __module__ machine.timer
       __qualname__ Timer
-      callback <function callback at 0xb5e8a120>
-      handler <function handler at 0xb5e8a160>
+      callback <function callback at 0xb5ebd4a0>
+      handler <function handler at 0xb5ebd4e0>
     ffilib <module 'ffilib'>
-      open <function open at 0xb5e85c60>
+      open <function open at 0xb5eb8fd0>
       ffi <module 'ffi'>
         open <function>
         as_bytearray <function>
@@ -697,76 +976,76 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         getsizeof <function>
         implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
         maxsize 2147483647
-        modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+        modules {'machine.timer': <module 'machine.timer'>, 'os': <module 'os'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.messaging': <module 'pybricks.messaging'>, 'machine.pin': <module 'machine.pin'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'stat': <module 'stat'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'signal': <module 'signal'>, 'machine': <module 'machine'>, 'errno': <module 'errno'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.bluetooth': <module 'pybricks.bluetooth'>, 'pybricks': <module 'pybricks'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.nxtdevices': <module 'pybricks.nxtdevices'>, 'pybricks.iodevices': <module 'pybricks.iodevices'>, 'ffilib': <module 'ffilib'>}
         path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
         platform linux
         print_exception <function>
         stderr <io.TextIOWrapper 2>
-          __enter__ <bound_method b5ec9540 <io.TextIOWrapper 2>.<function>>
-          __exit__ <bound_method b5ec9560 <io.TextIOWrapper 2>.<function>>
-          __next__ <bound_method b5ec9710 <io.TextIOWrapper 2>.<function>>
-          close <bound_method b5ec9870 <io.TextIOWrapper 2>.<function>>
-          read <bound_method b5ec99d0 <io.TextIOWrapper 2>.<function>>
-          readinto <bound_method b5ec9b20 <io.TextIOWrapper 2>.<function>>
-          readline <bound_method b5ec9c60 <io.TextIOWrapper 2>.<function>>
-          write <bound_method b5ec9dc0 <io.TextIOWrapper 2>.<function>>
-          fileno <bound_method b5ec9f20 <io.TextIOWrapper 2>.<function>>
-          flush <bound_method b5eca070 <io.TextIOWrapper 2>.<function>>
-          readlines <bound_method b5eca1d0 <io.TextIOWrapper 2>.<function>>
-          seek <bound_method b5eca320 <io.TextIOWrapper 2>.<function>>
-          tell <bound_method b5eca480 <io.TextIOWrapper 2>.<function>>
+          __enter__ <bound_method b5f12320 <io.TextIOWrapper 2>.<function>>
+          __exit__ <bound_method b5f12340 <io.TextIOWrapper 2>.<function>>
+          __next__ <bound_method b5f124f0 <io.TextIOWrapper 2>.<function>>
+          close <bound_method b5f12650 <io.TextIOWrapper 2>.<function>>
+          read <bound_method b5f127b0 <io.TextIOWrapper 2>.<function>>
+          readinto <bound_method b5f12900 <io.TextIOWrapper 2>.<function>>
+          readline <bound_method b5f12a40 <io.TextIOWrapper 2>.<function>>
+          write <bound_method b5f12ba0 <io.TextIOWrapper 2>.<function>>
+          fileno <bound_method b5f12d00 <io.TextIOWrapper 2>.<function>>
+          flush <bound_method b5f12e50 <io.TextIOWrapper 2>.<function>>
+          readlines <bound_method b5f12fb0 <io.TextIOWrapper 2>.<function>>
+          seek <bound_method b5f13100 <io.TextIOWrapper 2>.<function>>
+          tell <bound_method b5f13260 <io.TextIOWrapper 2>.<function>>
         stdin <io.TextIOWrapper 0>
-          __enter__ <bound_method b5eca7e0 <io.TextIOWrapper 0>.<function>>
-          __exit__ <bound_method b5eca800 <io.TextIOWrapper 0>.<function>>
-          __next__ <bound_method b5eca9b0 <io.TextIOWrapper 0>.<function>>
-          close <bound_method b5ecab10 <io.TextIOWrapper 0>.<function>>
-          read <bound_method b5ecac70 <io.TextIOWrapper 0>.<function>>
-          readinto <bound_method b5ecadc0 <io.TextIOWrapper 0>.<function>>
-          readline <bound_method b5ecaf00 <io.TextIOWrapper 0>.<function>>
-          write <bound_method b5ecb060 <io.TextIOWrapper 0>.<function>>
-          fileno <bound_method b5ecb1c0 <io.TextIOWrapper 0>.<function>>
-          flush <bound_method b5ecb310 <io.TextIOWrapper 0>.<function>>
-          readlines <bound_method b5ecb470 <io.TextIOWrapper 0>.<function>>
-          seek <bound_method b5ecb5c0 <io.TextIOWrapper 0>.<function>>
-          tell <bound_method b5ecb720 <io.TextIOWrapper 0>.<function>>
+          __enter__ <bound_method b5f135c0 <io.TextIOWrapper 0>.<function>>
+          __exit__ <bound_method b5f135e0 <io.TextIOWrapper 0>.<function>>
+          __next__ <bound_method b5f13790 <io.TextIOWrapper 0>.<function>>
+          close <bound_method b5f138f0 <io.TextIOWrapper 0>.<function>>
+          read <bound_method b5f13a50 <io.TextIOWrapper 0>.<function>>
+          readinto <bound_method b5f13ba0 <io.TextIOWrapper 0>.<function>>
+          readline <bound_method b5f13ce0 <io.TextIOWrapper 0>.<function>>
+          write <bound_method b5f13e40 <io.TextIOWrapper 0>.<function>>
+          fileno <bound_method b5f13fa0 <io.TextIOWrapper 0>.<function>>
+          flush <bound_method b5f140f0 <io.TextIOWrapper 0>.<function>>
+          readlines <bound_method b5f14250 <io.TextIOWrapper 0>.<function>>
+          seek <bound_method b5f143a0 <io.TextIOWrapper 0>.<function>>
+          tell <bound_method b5f14500 <io.TextIOWrapper 0>.<function>>
         stdout <io.TextIOWrapper 1>
-          __enter__ <bound_method b5ecba80 <io.TextIOWrapper 1>.<function>>
-          __exit__ <bound_method b5ecbaa0 <io.TextIOWrapper 1>.<function>>
-          __next__ <bound_method b5ecbc50 <io.TextIOWrapper 1>.<function>>
-          close <bound_method b5ecbdb0 <io.TextIOWrapper 1>.<function>>
-          read <bound_method b5ecbf10 <io.TextIOWrapper 1>.<function>>
-          readinto <bound_method b5ecc060 <io.TextIOWrapper 1>.<function>>
-          readline <bound_method b5ecc1a0 <io.TextIOWrapper 1>.<function>>
-          write <bound_method b5ecc300 <io.TextIOWrapper 1>.<function>>
-          fileno <bound_method b5ecc460 <io.TextIOWrapper 1>.<function>>
-          flush <bound_method b5ecc5b0 <io.TextIOWrapper 1>.<function>>
-          readlines <bound_method b5ecc710 <io.TextIOWrapper 1>.<function>>
-          seek <bound_method b5ecc860 <io.TextIOWrapper 1>.<function>>
-          tell <bound_method b5ecc9c0 <io.TextIOWrapper 1>.<function>>
+          __enter__ <bound_method b5f14860 <io.TextIOWrapper 1>.<function>>
+          __exit__ <bound_method b5f14880 <io.TextIOWrapper 1>.<function>>
+          __next__ <bound_method b5f14a30 <io.TextIOWrapper 1>.<function>>
+          close <bound_method b5f14b90 <io.TextIOWrapper 1>.<function>>
+          read <bound_method b5f14cf0 <io.TextIOWrapper 1>.<function>>
+          readinto <bound_method b5f14e40 <io.TextIOWrapper 1>.<function>>
+          readline <bound_method b5f14f80 <io.TextIOWrapper 1>.<function>>
+          write <bound_method b5f150e0 <io.TextIOWrapper 1>.<function>>
+          fileno <bound_method b5f15240 <io.TextIOWrapper 1>.<function>>
+          flush <bound_method b5f15390 <io.TextIOWrapper 1>.<function>>
+          readlines <bound_method b5f154f0 <io.TextIOWrapper 1>.<function>>
+          seek <bound_method b5f15640 <io.TextIOWrapper 1>.<function>>
+          tell <bound_method b5f157a0 <io.TextIOWrapper 1>.<function>>
         version 3.4.0
         version_info (3, 4, 0)
       v 0
-      libc <function libc at 0xb5e85970>
-      _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+      libc <function libc at 0xb5eb8ce0>
+      _cache {'librt': <ffimod b6fe1c80>, 'libc': <ffimod b6fe16a8>}
       bitness 32
     os <module 'os'>
-      close <function close at 0xb5e892e0>
-      open <function open at 0xb5e892a0>
-      read <function read at 0xb5e892c0>
-      remove <function unlink at 0xb5e893d0>
+      close <function close at 0xb5ebc660>
+      open <function open at 0xb5ebc620>
+      read <function read at 0xb5ebc640>
+      remove <function unlink at 0xb5ebc750>
       sep /
-      write <function write at 0xb5e892d0>
+      write <function write at 0xb5ebc650>
       array <module 'array'>
         array <class 'array'>
           append <function>
           extend <function>
           decode <function>
-      getenv <function getenv at 0xb5e893b0>
+      getenv <function getenv at 0xb5ebc730>
       ilistdir <function>
-      mkdir <function mkdir at 0xb5e88ff0>
+      mkdir <function mkdir at 0xb5ebc370>
       name posix
-      rename <function rename at 0xb5e89010>
-      rmdir <function rmdir at 0xb5e891f0>
+      rename <function rename at 0xb5ebc390>
+      rmdir <function rmdir at 0xb5ebc570>
       stat <function>
       struct <module 'ustruct'>
         calcsize <function>
@@ -774,7 +1053,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         pack_into <function>
         unpack <function>
         unpack_from <function>
-      system <function system at 0xb5e89390>
+      system <function system at 0xb5ebc710>
       uos <module 'uos'>
         remove <function>
         errno <function>
@@ -786,10 +1065,10 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         stat <function>
         statvfs <function>
         system <function>
-      urandom <function urandom at 0xb5e89400>
-      fork <function fork at 0xb5e89320>
+      urandom <function urandom at 0xb5ebc780>
+      fork <function fork at 0xb5ebc6a0>
       ffilib <module 'ffilib'>
-        open <function open at 0xb5e85c60>
+        open <function open at 0xb5eb8fd0>
         ffi <module 'ffi'>
           open <function>
           as_bytearray <function>
@@ -802,64 +1081,64 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
           getsizeof <function>
           implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
           maxsize 2147483647
-          modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+          modules {'machine.timer': <module 'machine.timer'>, 'os': <module 'os'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.messaging': <module 'pybricks.messaging'>, 'machine.pin': <module 'machine.pin'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'stat': <module 'stat'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'signal': <module 'signal'>, 'machine': <module 'machine'>, 'errno': <module 'errno'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.bluetooth': <module 'pybricks.bluetooth'>, 'pybricks': <module 'pybricks'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.nxtdevices': <module 'pybricks.nxtdevices'>, 'pybricks.iodevices': <module 'pybricks.iodevices'>, 'ffilib': <module 'ffilib'>}
           path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
           platform linux
           print_exception <function>
           stderr <io.TextIOWrapper 2>
-            __enter__ <bound_method b5ed1bb0 <io.TextIOWrapper 2>.<function>>
-            __exit__ <bound_method b5ed1bd0 <io.TextIOWrapper 2>.<function>>
-            __next__ <bound_method b5ed1d80 <io.TextIOWrapper 2>.<function>>
-            close <bound_method b5ed1ee0 <io.TextIOWrapper 2>.<function>>
-            read <bound_method b5ed2040 <io.TextIOWrapper 2>.<function>>
-            readinto <bound_method b5ed21a0 <io.TextIOWrapper 2>.<function>>
-            readline <bound_method b5ed2300 <io.TextIOWrapper 2>.<function>>
-            write <bound_method b5ed2460 <io.TextIOWrapper 2>.<function>>
-            fileno <bound_method b5ed25c0 <io.TextIOWrapper 2>.<function>>
-            flush <bound_method b5ed2720 <io.TextIOWrapper 2>.<function>>
-            readlines <bound_method b5ed2880 <io.TextIOWrapper 2>.<function>>
-            seek <bound_method b5ed29e0 <io.TextIOWrapper 2>.<function>>
-            tell <bound_method b5ed2b40 <io.TextIOWrapper 2>.<function>>
+            __enter__ <bound_method b5f1ac00 <io.TextIOWrapper 2>.<function>>
+            __exit__ <bound_method b5f1ac20 <io.TextIOWrapper 2>.<function>>
+            __next__ <bound_method b5f1add0 <io.TextIOWrapper 2>.<function>>
+            close <bound_method b5f1af30 <io.TextIOWrapper 2>.<function>>
+            read <bound_method b5f1b090 <io.TextIOWrapper 2>.<function>>
+            readinto <bound_method b5f1b1f0 <io.TextIOWrapper 2>.<function>>
+            readline <bound_method b5f1b350 <io.TextIOWrapper 2>.<function>>
+            write <bound_method b5f1b4b0 <io.TextIOWrapper 2>.<function>>
+            fileno <bound_method b5f1b610 <io.TextIOWrapper 2>.<function>>
+            flush <bound_method b5f1b770 <io.TextIOWrapper 2>.<function>>
+            readlines <bound_method b5f1b8d0 <io.TextIOWrapper 2>.<function>>
+            seek <bound_method b5f1ba30 <io.TextIOWrapper 2>.<function>>
+            tell <bound_method b5f1bb90 <io.TextIOWrapper 2>.<function>>
           stdin <io.TextIOWrapper 0>
-            __enter__ <bound_method b5ed2ef0 <io.TextIOWrapper 0>.<function>>
-            __exit__ <bound_method b5ed2f10 <io.TextIOWrapper 0>.<function>>
-            __next__ <bound_method b5ed30c0 <io.TextIOWrapper 0>.<function>>
-            close <bound_method b5ed3220 <io.TextIOWrapper 0>.<function>>
-            read <bound_method b5ed3380 <io.TextIOWrapper 0>.<function>>
-            readinto <bound_method b5ed34e0 <io.TextIOWrapper 0>.<function>>
-            readline <bound_method b5ed3640 <io.TextIOWrapper 0>.<function>>
-            write <bound_method b5ed37a0 <io.TextIOWrapper 0>.<function>>
-            fileno <bound_method b5ed3900 <io.TextIOWrapper 0>.<function>>
-            flush <bound_method b5ed3a60 <io.TextIOWrapper 0>.<function>>
-            readlines <bound_method b5ed3bc0 <io.TextIOWrapper 0>.<function>>
-            seek <bound_method b5ed3d20 <io.TextIOWrapper 0>.<function>>
-            tell <bound_method b5ed3e80 <io.TextIOWrapper 0>.<function>>
+            __enter__ <bound_method b5f1bf40 <io.TextIOWrapper 0>.<function>>
+            __exit__ <bound_method b5f1bf60 <io.TextIOWrapper 0>.<function>>
+            __next__ <bound_method b5f1c110 <io.TextIOWrapper 0>.<function>>
+            close <bound_method b5f1c270 <io.TextIOWrapper 0>.<function>>
+            read <bound_method b5f1c3d0 <io.TextIOWrapper 0>.<function>>
+            readinto <bound_method b5f1c530 <io.TextIOWrapper 0>.<function>>
+            readline <bound_method b5f1c690 <io.TextIOWrapper 0>.<function>>
+            write <bound_method b5f1c7f0 <io.TextIOWrapper 0>.<function>>
+            fileno <bound_method b5f1c950 <io.TextIOWrapper 0>.<function>>
+            flush <bound_method b5f1cab0 <io.TextIOWrapper 0>.<function>>
+            readlines <bound_method b5f1cc10 <io.TextIOWrapper 0>.<function>>
+            seek <bound_method b5f1cd70 <io.TextIOWrapper 0>.<function>>
+            tell <bound_method b5f1ced0 <io.TextIOWrapper 0>.<function>>
           stdout <io.TextIOWrapper 1>
-            __enter__ <bound_method b5ed4240 <io.TextIOWrapper 1>.<function>>
-            __exit__ <bound_method b5ed4260 <io.TextIOWrapper 1>.<function>>
-            __next__ <bound_method b5ed4410 <io.TextIOWrapper 1>.<function>>
-            close <bound_method b5ed4570 <io.TextIOWrapper 1>.<function>>
-            read <bound_method b5ed46d0 <io.TextIOWrapper 1>.<function>>
-            readinto <bound_method b5ed4830 <io.TextIOWrapper 1>.<function>>
-            readline <bound_method b5ed4990 <io.TextIOWrapper 1>.<function>>
-            write <bound_method b5ed4af0 <io.TextIOWrapper 1>.<function>>
-            fileno <bound_method b5ed4c50 <io.TextIOWrapper 1>.<function>>
-            flush <bound_method b5ed4db0 <io.TextIOWrapper 1>.<function>>
-            readlines <bound_method b5ed4f10 <io.TextIOWrapper 1>.<function>>
-            seek <bound_method b5ed5070 <io.TextIOWrapper 1>.<function>>
-            tell <bound_method b5ed51d0 <io.TextIOWrapper 1>.<function>>
+            __enter__ <bound_method b5f1d290 <io.TextIOWrapper 1>.<function>>
+            __exit__ <bound_method b5f1d2b0 <io.TextIOWrapper 1>.<function>>
+            __next__ <bound_method b5f1d460 <io.TextIOWrapper 1>.<function>>
+            close <bound_method b5f1d5c0 <io.TextIOWrapper 1>.<function>>
+            read <bound_method b5f1d720 <io.TextIOWrapper 1>.<function>>
+            readinto <bound_method b5f1d880 <io.TextIOWrapper 1>.<function>>
+            readline <bound_method b5f1d9e0 <io.TextIOWrapper 1>.<function>>
+            write <bound_method b5f1db40 <io.TextIOWrapper 1>.<function>>
+            fileno <bound_method b5f1dca0 <io.TextIOWrapper 1>.<function>>
+            flush <bound_method b5f1de00 <io.TextIOWrapper 1>.<function>>
+            readlines <bound_method b5f1df60 <io.TextIOWrapper 1>.<function>>
+            seek <bound_method b5f1e0c0 <io.TextIOWrapper 1>.<function>>
+            tell <bound_method b5f1e220 <io.TextIOWrapper 1>.<function>>
           version 3.4.0
           version_info (3, 4, 0)
         v 0
-        libc <function libc at 0xb5e85970>
-        _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+        libc <function libc at 0xb5eb8ce0>
+        _cache {'librt': <ffimod b6fe1c80>, 'libc': <ffimod b6fe16a8>}
         bitness 32
-      libc <ffimod b6faf6a8>
-        close <bound_method b5ed5bd0 <ffimod b6faf6a8>.<function>>
-        addr <bound_method b5ed5bf0 <ffimod b6faf6a8>.<function>>
-        func <bound_method b5ed5d80 <ffimod b6faf6a8>.<function>>
-        var <bound_method b5ed5ec0 <ffimod b6faf6a8>.<function>>
-      check_error <function check_error at 0xb5e88860>
+      libc <ffimod b6fe16a8>
+        close <bound_method b5f1ec20 <ffimod b6fe16a8>.<function>>
+        addr <bound_method b5f1ec40 <ffimod b6fe16a8>.<function>>
+        func <bound_method b5f1edd0 <ffimod b6fe16a8>.<function>>
+        var <bound_method b5f1ef10 <ffimod b6fe16a8>.<function>>
+      check_error <function check_error at 0xb5ebbbe0>
       errno_ <module 'errno'>
         E2BIG 7
         EACCES 13
@@ -900,7 +1179,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         ETXTBSY 26
         EXDEV 18
       stat_ <module 'stat'>
-        S_ISDIR <function S_ISDIR at 0xb5e87a60>
+        S_ISDIR <function S_ISDIR at 0xb5ebadd0>
         ST_MODE 0
         ST_INO 1
         ST_DEV 2
@@ -911,8 +1190,8 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         ST_ATIME 7
         ST_MTIME 8
         ST_CTIME 9
-        S_IMODE <function S_IMODE at 0xb5e878e0>
-        S_IFMT <function S_IFMT at 0xb5e87a50>
+        S_IMODE <function S_IMODE at 0xb5eb7280>
+        S_IFMT <function S_IFMT at 0xb5ebadc0>
         S_IFDIR 16384
         S_IFCHR 8192
         S_IFBLK 24576
@@ -920,12 +1199,12 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         S_IFIFO 4096
         S_IFLNK 40960
         S_IFSOCK 49152
-        S_ISCHR <function S_ISCHR at 0xb5e88450>
-        S_ISBLK <function S_ISBLK at 0xb5e88460>
-        S_ISREG <function S_ISREG at 0xb5e88470>
-        S_ISFIFO <function S_ISFIFO at 0xb5e88570>
-        S_ISLNK <function S_ISLNK at 0xb5e88580>
-        S_ISSOCK <function S_ISSOCK at 0xb5e88590>
+        S_ISCHR <function S_ISCHR at 0xb5ebb7d0>
+        S_ISBLK <function S_ISBLK at 0xb5ebb7e0>
+        S_ISREG <function S_ISREG at 0xb5ebb7f0>
+        S_ISFIFO <function S_ISFIFO at 0xb5ebb8f0>
+        S_ISLNK <function S_ISLNK at 0xb5ebb900>
+        S_ISSOCK <function S_ISSOCK at 0xb5ebb910>
         S_ISUID 2048
         S_ISGID 1024
         S_ENFMT 1024
@@ -958,7 +1237,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         SF_NOUNLINK 1048576
         SF_SNAPSHOT 2097152
         _filemode_table (((40960, 'l'), (32768, '-'), (24576, 'b'), (16384, 'd'), (8192, 'c'), (4096, 'p')), ((256, 'r'),), ((128, 'w'),), ((2112, 's'), (2048, 'S'), (64, 'x')), ((32, 'r'),), ((16, 'w'),), ((1032, 's'), (1024, 'S'), (8, 'x')), ((4, 'r'),), ((2, 'w'),), ((513, 't'), (512, 'T'), (1, 'x')))
-        filemode <function filemode at 0xb5e88710>
+        filemode <function filemode at 0xb5ebba90>
       R_OK 4
       W_OK 2
       X_OK 1
@@ -977,58 +1256,58 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       curdir .
       pardir ..
       environ {'WARNING': 'NOT_IMPLEMENTED'}
-      chdir <function chdir at 0xb5e89310>
-      chdir_ <ffifunc b6ac29d0>
-      mkdir_ <ffifunc b6ac1a90>
-      rename_ <ffifunc b6a55550>
-      unlink <function unlink at 0xb5e893d0>
-      unlink_ <ffifunc b6ac3bb0>
-      rmdir_ <ffifunc b6ac3bf0>
-      getcwd <function getcwd at 0xb5e88880>
-      getcwd_ <ffifunc b6ac2a0c>
-      opendir_ <ffifunc b6a96684>
-      readdir_ <ffifunc b6a96778>
-      open_ <ffifunc b6ac1af0>
-      read_ <ffifunc b6ac1fa0>
-      write_ <ffifunc b6ac2030>
-      close_ <ffifunc b6ac2810>
-      dup <function dup at 0xb5e892f0>
-      dup_ <ffifunc b6ac2880>
-      access <function access at 0xb5e89300>
-      access_ <ffifunc b6ac20c0>
-      fork_ <ffifunc b6a9c42c>
-      pipe <function pipe at 0xb5e89330>
-      pipe_ <ffifunc b6ac28e0>
-      _exit <function _exit at 0xb5e89340>
-      _exit_ <ffifunc b6a9c804>
-      getpid <function getpid at 0xb5e89360>
-      getpid_ <ffifunc b6a9cfe0>
-      waitpid <function waitpid at 0xb5e89370>
-      waitpid_ <ffifunc b6a9c00c>
-      system_ <ffifunc b6a33534>
-      execvp <function execvp at 0xb5e89350>
-      execvp_ <ffifunc b6a9cb9c>
-      kill <function kill at 0xb5e89380>
-      kill_ <ffifunc b6a27280>
-      getenv_ <ffifunc b6a290d4>
-      raise_error <function raise_error at 0xb5e88870>
-      makedirs <function makedirs at 0xb5e89210>
-      listdir <function listdir at 0xb5e89240>
+      chdir <function chdir at 0xb5ebc690>
+      chdir_ <ffifunc b6af49d0>
+      mkdir_ <ffifunc b6af3a90>
+      rename_ <ffifunc b6a87550>
+      unlink <function unlink at 0xb5ebc750>
+      unlink_ <ffifunc b6af5bb0>
+      rmdir_ <ffifunc b6af5bf0>
+      getcwd <function getcwd at 0xb5ebbc00>
+      getcwd_ <ffifunc b6af4a0c>
+      opendir_ <ffifunc b6ac8684>
+      readdir_ <ffifunc b6ac8778>
+      open_ <ffifunc b6af3af0>
+      read_ <ffifunc b6af3fa0>
+      write_ <ffifunc b6af4030>
+      close_ <ffifunc b6af4810>
+      dup <function dup at 0xb5ebc670>
+      dup_ <ffifunc b6af4880>
+      access <function access at 0xb5ebc680>
+      access_ <ffifunc b6af40c0>
+      fork_ <ffifunc b6ace42c>
+      pipe <function pipe at 0xb5ebc6b0>
+      pipe_ <ffifunc b6af48e0>
+      _exit <function _exit at 0xb5ebc6c0>
+      _exit_ <ffifunc b6ace804>
+      getpid <function getpid at 0xb5ebc6e0>
+      getpid_ <ffifunc b6acefe0>
+      waitpid <function waitpid at 0xb5ebc6f0>
+      waitpid_ <ffifunc b6ace00c>
+      system_ <ffifunc b6a65534>
+      execvp <function execvp at 0xb5ebc6d0>
+      execvp_ <ffifunc b6aceb9c>
+      kill <function kill at 0xb5ebc700>
+      kill_ <ffifunc b6a59280>
+      getenv_ <ffifunc b6a5b0d4>
+      raise_error <function raise_error at 0xb5ebbbf0>
+      makedirs <function makedirs at 0xb5ebc590>
+      listdir <function listdir at 0xb5ebc5c0>
       walk <generator>
-      fsencode <function fsencode at 0xb5e893e0>
-      fsdecode <function fsdecode at 0xb5e893f0>
-      popen <function popen at 0xb5e89420>
-    signal <function signal at 0xb5e899a0>
-    libc <ffimod b6faf6a8>
-      close <bound_method b5ee0780 <ffimod b6faf6a8>.<function>>
-      addr <bound_method b5ee07a0 <ffimod b6faf6a8>.<function>>
-      func <bound_method b5ee0930 <ffimod b6faf6a8>.<function>>
-      var <bound_method b5ee0a60 <ffimod b6faf6a8>.<function>>
-    librt <ffimod b6fafc80>
-      close <bound_method b5ee0d70 <ffimod b6fafc80>.<function>>
-      addr <bound_method b5ee0d90 <ffimod b6fafc80>.<function>>
-      func <bound_method b5ee0f20 <ffimod b6fafc80>.<function>>
-      var <bound_method b5ee1050 <ffimod b6fafc80>.<function>>
+      fsencode <function fsencode at 0xb5ebc760>
+      fsdecode <function fsdecode at 0xb5ebc770>
+      popen <function popen at 0xb5ebc7a0>
+    signal <function signal at 0xb5ebcd20>
+    libc <ffimod b6fe16a8>
+      close <bound_method b5f297d0 <ffimod b6fe16a8>.<function>>
+      addr <bound_method b5f297f0 <ffimod b6fe16a8>.<function>>
+      func <bound_method b5f29980 <ffimod b6fe16a8>.<function>>
+      var <bound_method b5f29ab0 <ffimod b6fe16a8>.<function>>
+    librt <ffimod b6fe1c80>
+      close <bound_method b5f29dc0 <ffimod b6fe1c80>.<function>>
+      addr <bound_method b5f29de0 <ffimod b6fe1c80>.<function>>
+      func <bound_method b5f29f70 <ffimod b6fe1c80>.<function>>
+      var <bound_method b5f2a0a0 <ffimod b6fe1c80>.<function>>
     CLOCK_REALTIME 0
     CLOCK_MONOTONIC 1
     SIGEV_SIGNAL 0
@@ -1036,18 +1315,18 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     sigevent_t {'sigev_notify': 671088652, 'sigev_value': (0, {'sival_int': 671088640, 'sival_ptr': (536870912, 0)}), 'sigev_signo': 671088648}
     timespec_t {'tv_nsec': 939524104, 'tv_sec': 671088640}
     itimerspec_t {'it_interval': (0, {'tv_nsec': 939524104, 'tv_sec': 671088640}), 'it_value': (16, {'tv_nsec': 939524104, 'tv_sec': 671088640})}
-    __libc_current_sigrtmin <ffifunc b6a27ca8>
+    __libc_current_sigrtmin <ffifunc b6a59ca8>
     SIGRTMIN 34
-    timer_create_ <ffifunc b69b7afc>
-    timer_settime_ <ffifunc b69b7f10>
-    new <function new at 0xb5e8a0d0>
-    timer_create <function timer_create at 0xb5e8a0e0>
-    timer_settime <function timer_settime at 0xb5e8a0f0>
+    timer_create_ <ffifunc b69e9afc>
+    timer_settime_ <ffifunc b69e9f10>
+    new <function new at 0xb5ebd450>
+    timer_create <function timer_create at 0xb5ebd460>
+    timer_settime <function timer_settime at 0xb5ebd470>
     SIG_DFL 0
     SIG_IGN 1
     SIGPIPE 13
-    signal_i <ffifunc b6a26f00>
-    signal_p <ffifunc b6a26f00>
+    signal_i <ffifunc b6a58f00>
+    signal_p <ffifunc b6a58f00>
   pin <module 'machine.pin'>
     umachine <module 'umachine'>
       PinBase <class 'PinBase'>
@@ -1060,16 +1339,16 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       mem8 <8-bit memory>
       time_pulse_us <function>
     Pin <class 'Pin'>
-      __init__ <function __init__ at 0xb5e8a860>
+      __init__ <function __init__ at 0xb5ebdbe0>
       __module__ machine.pin
       __qualname__ Pin
-      value <function value at 0xb5e8a8b0>
+      value <function value at 0xb5ebdc30>
       IN in
       OUT out
-      deinit <function deinit at 0xb5e8a850>
-  unique_id <function unique_id at 0xb5e8a320>
+      deinit <function deinit at 0xb5ebdbd0>
+  unique_id <function unique_id at 0xb5ebd6a0>
   ffilib <module 'ffilib'>
-    open <function open at 0xb5e85c60>
+    open <function open at 0xb5eb8fd0>
     ffi <module 'ffi'>
       open <function>
       as_bytearray <function>
@@ -1082,76 +1361,76 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       getsizeof <function>
       implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
       maxsize 2147483647
-      modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+      modules {'machine.timer': <module 'machine.timer'>, 'os': <module 'os'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.messaging': <module 'pybricks.messaging'>, 'machine.pin': <module 'machine.pin'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'stat': <module 'stat'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'signal': <module 'signal'>, 'machine': <module 'machine'>, 'errno': <module 'errno'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.bluetooth': <module 'pybricks.bluetooth'>, 'pybricks': <module 'pybricks'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.nxtdevices': <module 'pybricks.nxtdevices'>, 'pybricks.iodevices': <module 'pybricks.iodevices'>, 'ffilib': <module 'ffilib'>}
       path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
       platform linux
       print_exception <function>
       stderr <io.TextIOWrapper 2>
-        __enter__ <bound_method b5ee5df0 <io.TextIOWrapper 2>.<function>>
-        __exit__ <bound_method b5ee5e10 <io.TextIOWrapper 2>.<function>>
-        __next__ <bound_method b5ee5fc0 <io.TextIOWrapper 2>.<function>>
-        close <bound_method b5ee6120 <io.TextIOWrapper 2>.<function>>
-        read <bound_method b5ee6280 <io.TextIOWrapper 2>.<function>>
-        readinto <bound_method b5ee63c0 <io.TextIOWrapper 2>.<function>>
-        readline <bound_method b5ee6500 <io.TextIOWrapper 2>.<function>>
-        write <bound_method b5ee6660 <io.TextIOWrapper 2>.<function>>
-        fileno <bound_method b5ee67c0 <io.TextIOWrapper 2>.<function>>
-        flush <bound_method b5ee6900 <io.TextIOWrapper 2>.<function>>
-        readlines <bound_method b5ee6a40 <io.TextIOWrapper 2>.<function>>
-        seek <bound_method b5ee6b80 <io.TextIOWrapper 2>.<function>>
-        tell <bound_method b5ee6ce0 <io.TextIOWrapper 2>.<function>>
+        __enter__ <bound_method b5f2f0c0 <io.TextIOWrapper 2>.<function>>
+        __exit__ <bound_method b5f2f0e0 <io.TextIOWrapper 2>.<function>>
+        __next__ <bound_method b5f2f290 <io.TextIOWrapper 2>.<function>>
+        close <bound_method b5f2f3f0 <io.TextIOWrapper 2>.<function>>
+        read <bound_method b5f2f550 <io.TextIOWrapper 2>.<function>>
+        readinto <bound_method b5f2f690 <io.TextIOWrapper 2>.<function>>
+        readline <bound_method b5f2f7d0 <io.TextIOWrapper 2>.<function>>
+        write <bound_method b5f2f930 <io.TextIOWrapper 2>.<function>>
+        fileno <bound_method b5f2fa90 <io.TextIOWrapper 2>.<function>>
+        flush <bound_method b5f2fbd0 <io.TextIOWrapper 2>.<function>>
+        readlines <bound_method b5f2fd10 <io.TextIOWrapper 2>.<function>>
+        seek <bound_method b5f2fe50 <io.TextIOWrapper 2>.<function>>
+        tell <bound_method b5f2ffb0 <io.TextIOWrapper 2>.<function>>
       stdin <io.TextIOWrapper 0>
-        __enter__ <bound_method b5ee7040 <io.TextIOWrapper 0>.<function>>
-        __exit__ <bound_method b5ee7060 <io.TextIOWrapper 0>.<function>>
-        __next__ <bound_method b5ee7210 <io.TextIOWrapper 0>.<function>>
-        close <bound_method b5ee7370 <io.TextIOWrapper 0>.<function>>
-        read <bound_method b5ee74d0 <io.TextIOWrapper 0>.<function>>
-        readinto <bound_method b5ee7610 <io.TextIOWrapper 0>.<function>>
-        readline <bound_method b5ee7750 <io.TextIOWrapper 0>.<function>>
-        write <bound_method b5ee78b0 <io.TextIOWrapper 0>.<function>>
-        fileno <bound_method b5ee7a10 <io.TextIOWrapper 0>.<function>>
-        flush <bound_method b5ee7b50 <io.TextIOWrapper 0>.<function>>
-        readlines <bound_method b5ee7c90 <io.TextIOWrapper 0>.<function>>
-        seek <bound_method b5ee7dd0 <io.TextIOWrapper 0>.<function>>
-        tell <bound_method b5ee7f30 <io.TextIOWrapper 0>.<function>>
+        __enter__ <bound_method b5f30310 <io.TextIOWrapper 0>.<function>>
+        __exit__ <bound_method b5f30330 <io.TextIOWrapper 0>.<function>>
+        __next__ <bound_method b5f304e0 <io.TextIOWrapper 0>.<function>>
+        close <bound_method b5f30640 <io.TextIOWrapper 0>.<function>>
+        read <bound_method b5f307a0 <io.TextIOWrapper 0>.<function>>
+        readinto <bound_method b5f308e0 <io.TextIOWrapper 0>.<function>>
+        readline <bound_method b5f30a20 <io.TextIOWrapper 0>.<function>>
+        write <bound_method b5f30b80 <io.TextIOWrapper 0>.<function>>
+        fileno <bound_method b5f30ce0 <io.TextIOWrapper 0>.<function>>
+        flush <bound_method b5f30e20 <io.TextIOWrapper 0>.<function>>
+        readlines <bound_method b5f30f60 <io.TextIOWrapper 0>.<function>>
+        seek <bound_method b5f310a0 <io.TextIOWrapper 0>.<function>>
+        tell <bound_method b5f31200 <io.TextIOWrapper 0>.<function>>
       stdout <io.TextIOWrapper 1>
-        __enter__ <bound_method b5ee8290 <io.TextIOWrapper 1>.<function>>
-        __exit__ <bound_method b5ee82b0 <io.TextIOWrapper 1>.<function>>
-        __next__ <bound_method b5ee8460 <io.TextIOWrapper 1>.<function>>
-        close <bound_method b5ee85c0 <io.TextIOWrapper 1>.<function>>
-        read <bound_method b5ee8720 <io.TextIOWrapper 1>.<function>>
-        readinto <bound_method b5ee8860 <io.TextIOWrapper 1>.<function>>
-        readline <bound_method b5ee89a0 <io.TextIOWrapper 1>.<function>>
-        write <bound_method b5ee8b00 <io.TextIOWrapper 1>.<function>>
-        fileno <bound_method b5ee8c60 <io.TextIOWrapper 1>.<function>>
-        flush <bound_method b5ee8da0 <io.TextIOWrapper 1>.<function>>
-        readlines <bound_method b5ee8ee0 <io.TextIOWrapper 1>.<function>>
-        seek <bound_method b5ee9020 <io.TextIOWrapper 1>.<function>>
-        tell <bound_method b5ee9180 <io.TextIOWrapper 1>.<function>>
+        __enter__ <bound_method b5f31560 <io.TextIOWrapper 1>.<function>>
+        __exit__ <bound_method b5f31580 <io.TextIOWrapper 1>.<function>>
+        __next__ <bound_method b5f31730 <io.TextIOWrapper 1>.<function>>
+        close <bound_method b5f31890 <io.TextIOWrapper 1>.<function>>
+        read <bound_method b5f319f0 <io.TextIOWrapper 1>.<function>>
+        readinto <bound_method b5f31b30 <io.TextIOWrapper 1>.<function>>
+        readline <bound_method b5f31c70 <io.TextIOWrapper 1>.<function>>
+        write <bound_method b5f31dd0 <io.TextIOWrapper 1>.<function>>
+        fileno <bound_method b5f31f30 <io.TextIOWrapper 1>.<function>>
+        flush <bound_method b5f32070 <io.TextIOWrapper 1>.<function>>
+        readlines <bound_method b5f321b0 <io.TextIOWrapper 1>.<function>>
+        seek <bound_method b5f322f0 <io.TextIOWrapper 1>.<function>>
+        tell <bound_method b5f32450 <io.TextIOWrapper 1>.<function>>
       version 3.4.0
       version_info (3, 4, 0)
     v 0
-    libc <function libc at 0xb5e85970>
-    _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+    libc <function libc at 0xb5eb8ce0>
+    _cache {'librt': <ffimod b6fe1c80>, 'libc': <ffimod b6fe16a8>}
     bitness 32
   os <module 'os'>
-    close <function close at 0xb5e892e0>
-    open <function open at 0xb5e892a0>
-    read <function read at 0xb5e892c0>
-    remove <function unlink at 0xb5e893d0>
+    close <function close at 0xb5ebc660>
+    open <function open at 0xb5ebc620>
+    read <function read at 0xb5ebc640>
+    remove <function unlink at 0xb5ebc750>
     sep /
-    write <function write at 0xb5e892d0>
+    write <function write at 0xb5ebc650>
     array <module 'array'>
       array <class 'array'>
         append <function>
         extend <function>
         decode <function>
-    getenv <function getenv at 0xb5e893b0>
+    getenv <function getenv at 0xb5ebc730>
     ilistdir <function>
-    mkdir <function mkdir at 0xb5e88ff0>
+    mkdir <function mkdir at 0xb5ebc370>
     name posix
-    rename <function rename at 0xb5e89010>
-    rmdir <function rmdir at 0xb5e891f0>
+    rename <function rename at 0xb5ebc390>
+    rmdir <function rmdir at 0xb5ebc570>
     stat <function>
     struct <module 'ustruct'>
       calcsize <function>
@@ -1159,7 +1438,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       pack_into <function>
       unpack <function>
       unpack_from <function>
-    system <function system at 0xb5e89390>
+    system <function system at 0xb5ebc710>
     uos <module 'uos'>
       remove <function>
       errno <function>
@@ -1171,10 +1450,10 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       stat <function>
       statvfs <function>
       system <function>
-    urandom <function urandom at 0xb5e89400>
-    fork <function fork at 0xb5e89320>
+    urandom <function urandom at 0xb5ebc780>
+    fork <function fork at 0xb5ebc6a0>
     ffilib <module 'ffilib'>
-      open <function open at 0xb5e85c60>
+      open <function open at 0xb5eb8fd0>
       ffi <module 'ffi'>
         open <function>
         as_bytearray <function>
@@ -1187,64 +1466,64 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
         getsizeof <function>
         implementation (name='pybricks-micropython', version=(major=2, minor=0, micro=0, releaselevel='final', serial=0), hexversion=33554672, _git='v1.11', _date='2020-05-06')
         maxsize 2147483647
-        modules {'machine.pin': <module 'machine.pin'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks': <module 'pybricks'>, 'ffilib': <module 'ffilib'>, 'os': <module 'os'>, 'machine': <module 'machine'>, 'machine.timer': <module 'machine.timer'>, 'errno': <module 'errno'>, 'stat': <module 'stat'>, 'signal': <module 'signal'>}
+        modules {'machine.timer': <module 'machine.timer'>, 'os': <module 'os'>, 'pybricks.media.ev3dev': <module 'pybricks.media.ev3dev'>, 'pybricks.ev3devices': <module 'pybricks.ev3devices'>, 'pybricks.messaging': <module 'pybricks.messaging'>, 'machine.pin': <module 'machine.pin'>, 'pybricks.parameters': <module 'pybricks.parameters'>, 'stat': <module 'stat'>, 'pybricks.media': <module 'pybricks.media'>, 'pybricks.hubs': <module 'pybricks.hubs'>, 'signal': <module 'signal'>, 'machine': <module 'machine'>, 'errno': <module 'errno'>, 'pybricks.tools': <module 'pybricks.tools'>, 'pybricks.bluetooth': <module 'pybricks.bluetooth'>, 'pybricks': <module 'pybricks'>, 'media_ev3dev_c': <module 'media_ev3dev'>, 'pybricks.robotics': <module 'pybricks.robotics'>, 'pybricks.nxtdevices': <module 'pybricks.nxtdevices'>, 'pybricks.iodevices': <module 'pybricks.iodevices'>, 'ffilib': <module 'ffilib'>}
         path ['/home/robot/objdump', '', '/home/robot/.pybricks-micropython/lib', '/usr/lib/pybricks-micropython']
         platform linux
         print_exception <function>
         stderr <io.TextIOWrapper 2>
-          __enter__ <bound_method b5eee210 <io.TextIOWrapper 2>.<function>>
-          __exit__ <bound_method b5eee230 <io.TextIOWrapper 2>.<function>>
-          __next__ <bound_method b5eee3e0 <io.TextIOWrapper 2>.<function>>
-          close <bound_method b5eee540 <io.TextIOWrapper 2>.<function>>
-          read <bound_method b5eee6a0 <io.TextIOWrapper 2>.<function>>
-          readinto <bound_method b5eee7f0 <io.TextIOWrapper 2>.<function>>
-          readline <bound_method b5eee930 <io.TextIOWrapper 2>.<function>>
-          write <bound_method b5eeea90 <io.TextIOWrapper 2>.<function>>
-          fileno <bound_method b5eeebf0 <io.TextIOWrapper 2>.<function>>
-          flush <bound_method b5eeed40 <io.TextIOWrapper 2>.<function>>
-          readlines <bound_method b5eeeea0 <io.TextIOWrapper 2>.<function>>
-          seek <bound_method b5eeeff0 <io.TextIOWrapper 2>.<function>>
-          tell <bound_method b5eef150 <io.TextIOWrapper 2>.<function>>
+          __enter__ <bound_method b5f37750 <io.TextIOWrapper 2>.<function>>
+          __exit__ <bound_method b5f37770 <io.TextIOWrapper 2>.<function>>
+          __next__ <bound_method b5f37920 <io.TextIOWrapper 2>.<function>>
+          close <bound_method b5f37a80 <io.TextIOWrapper 2>.<function>>
+          read <bound_method b5f37be0 <io.TextIOWrapper 2>.<function>>
+          readinto <bound_method b5f37d30 <io.TextIOWrapper 2>.<function>>
+          readline <bound_method b5f37e70 <io.TextIOWrapper 2>.<function>>
+          write <bound_method b5f37fd0 <io.TextIOWrapper 2>.<function>>
+          fileno <bound_method b5f38130 <io.TextIOWrapper 2>.<function>>
+          flush <bound_method b5f38280 <io.TextIOWrapper 2>.<function>>
+          readlines <bound_method b5f383e0 <io.TextIOWrapper 2>.<function>>
+          seek <bound_method b5f38530 <io.TextIOWrapper 2>.<function>>
+          tell <bound_method b5f38690 <io.TextIOWrapper 2>.<function>>
         stdin <io.TextIOWrapper 0>
-          __enter__ <bound_method b5eef4b0 <io.TextIOWrapper 0>.<function>>
-          __exit__ <bound_method b5eef4d0 <io.TextIOWrapper 0>.<function>>
-          __next__ <bound_method b5eef680 <io.TextIOWrapper 0>.<function>>
-          close <bound_method b5eef7e0 <io.TextIOWrapper 0>.<function>>
-          read <bound_method b5eef940 <io.TextIOWrapper 0>.<function>>
-          readinto <bound_method b5eefa90 <io.TextIOWrapper 0>.<function>>
-          readline <bound_method b5eefbd0 <io.TextIOWrapper 0>.<function>>
-          write <bound_method b5eefd30 <io.TextIOWrapper 0>.<function>>
-          fileno <bound_method b5eefe90 <io.TextIOWrapper 0>.<function>>
-          flush <bound_method b5eeffe0 <io.TextIOWrapper 0>.<function>>
-          readlines <bound_method b5ef0140 <io.TextIOWrapper 0>.<function>>
-          seek <bound_method b5ef0290 <io.TextIOWrapper 0>.<function>>
-          tell <bound_method b5ef03f0 <io.TextIOWrapper 0>.<function>>
+          __enter__ <bound_method b5f389f0 <io.TextIOWrapper 0>.<function>>
+          __exit__ <bound_method b5f38a10 <io.TextIOWrapper 0>.<function>>
+          __next__ <bound_method b5f38bc0 <io.TextIOWrapper 0>.<function>>
+          close <bound_method b5f38d20 <io.TextIOWrapper 0>.<function>>
+          read <bound_method b5f38e80 <io.TextIOWrapper 0>.<function>>
+          readinto <bound_method b5f38fd0 <io.TextIOWrapper 0>.<function>>
+          readline <bound_method b5f39110 <io.TextIOWrapper 0>.<function>>
+          write <bound_method b5f39270 <io.TextIOWrapper 0>.<function>>
+          fileno <bound_method b5f393d0 <io.TextIOWrapper 0>.<function>>
+          flush <bound_method b5f39520 <io.TextIOWrapper 0>.<function>>
+          readlines <bound_method b5f39680 <io.TextIOWrapper 0>.<function>>
+          seek <bound_method b5f397d0 <io.TextIOWrapper 0>.<function>>
+          tell <bound_method b5f39930 <io.TextIOWrapper 0>.<function>>
         stdout <io.TextIOWrapper 1>
-          __enter__ <bound_method b5ef0750 <io.TextIOWrapper 1>.<function>>
-          __exit__ <bound_method b5ef0770 <io.TextIOWrapper 1>.<function>>
-          __next__ <bound_method b5ef0920 <io.TextIOWrapper 1>.<function>>
-          close <bound_method b5ef0a80 <io.TextIOWrapper 1>.<function>>
-          read <bound_method b5ef0be0 <io.TextIOWrapper 1>.<function>>
-          readinto <bound_method b5ef0d30 <io.TextIOWrapper 1>.<function>>
-          readline <bound_method b5ef0e70 <io.TextIOWrapper 1>.<function>>
-          write <bound_method b5ef0fd0 <io.TextIOWrapper 1>.<function>>
-          fileno <bound_method b5ef1130 <io.TextIOWrapper 1>.<function>>
-          flush <bound_method b5ef1280 <io.TextIOWrapper 1>.<function>>
-          readlines <bound_method b5ef13e0 <io.TextIOWrapper 1>.<function>>
-          seek <bound_method b5ef1530 <io.TextIOWrapper 1>.<function>>
-          tell <bound_method b5ef1690 <io.TextIOWrapper 1>.<function>>
+          __enter__ <bound_method b5f39c90 <io.TextIOWrapper 1>.<function>>
+          __exit__ <bound_method b5f39cb0 <io.TextIOWrapper 1>.<function>>
+          __next__ <bound_method b5f39e60 <io.TextIOWrapper 1>.<function>>
+          close <bound_method b5f39fc0 <io.TextIOWrapper 1>.<function>>
+          read <bound_method b5f3a120 <io.TextIOWrapper 1>.<function>>
+          readinto <bound_method b5f3a270 <io.TextIOWrapper 1>.<function>>
+          readline <bound_method b5f3a3b0 <io.TextIOWrapper 1>.<function>>
+          write <bound_method b5f3a510 <io.TextIOWrapper 1>.<function>>
+          fileno <bound_method b5f3a670 <io.TextIOWrapper 1>.<function>>
+          flush <bound_method b5f3a7c0 <io.TextIOWrapper 1>.<function>>
+          readlines <bound_method b5f3a920 <io.TextIOWrapper 1>.<function>>
+          seek <bound_method b5f3aa70 <io.TextIOWrapper 1>.<function>>
+          tell <bound_method b5f3abd0 <io.TextIOWrapper 1>.<function>>
         version 3.4.0
         version_info (3, 4, 0)
       v 0
-      libc <function libc at 0xb5e85970>
-      _cache {'librt': <ffimod b6fafc80>, 'libc': <ffimod b6faf6a8>}
+      libc <function libc at 0xb5eb8ce0>
+      _cache {'librt': <ffimod b6fe1c80>, 'libc': <ffimod b6fe16a8>}
       bitness 32
-    libc <ffimod b6faf6a8>
-      close <bound_method b5ef2020 <ffimod b6faf6a8>.<function>>
-      addr <bound_method b5ef2040 <ffimod b6faf6a8>.<function>>
-      func <bound_method b5ef21d0 <ffimod b6faf6a8>.<function>>
-      var <bound_method b5ef2300 <ffimod b6faf6a8>.<function>>
-    check_error <function check_error at 0xb5e88860>
+    libc <ffimod b6fe16a8>
+      close <bound_method b5f3b560 <ffimod b6fe16a8>.<function>>
+      addr <bound_method b5f3b580 <ffimod b6fe16a8>.<function>>
+      func <bound_method b5f3b710 <ffimod b6fe16a8>.<function>>
+      var <bound_method b5f3b840 <ffimod b6fe16a8>.<function>>
+    check_error <function check_error at 0xb5ebbbe0>
     errno_ <module 'errno'>
       E2BIG 7
       EACCES 13
@@ -1285,7 +1564,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       ETXTBSY 26
       EXDEV 18
     stat_ <module 'stat'>
-      S_ISDIR <function S_ISDIR at 0xb5e87a60>
+      S_ISDIR <function S_ISDIR at 0xb5ebadd0>
       ST_MODE 0
       ST_INO 1
       ST_DEV 2
@@ -1296,8 +1575,8 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       ST_ATIME 7
       ST_MTIME 8
       ST_CTIME 9
-      S_IMODE <function S_IMODE at 0xb5e878e0>
-      S_IFMT <function S_IFMT at 0xb5e87a50>
+      S_IMODE <function S_IMODE at 0xb5eb7280>
+      S_IFMT <function S_IFMT at 0xb5ebadc0>
       S_IFDIR 16384
       S_IFCHR 8192
       S_IFBLK 24576
@@ -1305,12 +1584,12 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       S_IFIFO 4096
       S_IFLNK 40960
       S_IFSOCK 49152
-      S_ISCHR <function S_ISCHR at 0xb5e88450>
-      S_ISBLK <function S_ISBLK at 0xb5e88460>
-      S_ISREG <function S_ISREG at 0xb5e88470>
-      S_ISFIFO <function S_ISFIFO at 0xb5e88570>
-      S_ISLNK <function S_ISLNK at 0xb5e88580>
-      S_ISSOCK <function S_ISSOCK at 0xb5e88590>
+      S_ISCHR <function S_ISCHR at 0xb5ebb7d0>
+      S_ISBLK <function S_ISBLK at 0xb5ebb7e0>
+      S_ISREG <function S_ISREG at 0xb5ebb7f0>
+      S_ISFIFO <function S_ISFIFO at 0xb5ebb8f0>
+      S_ISLNK <function S_ISLNK at 0xb5ebb900>
+      S_ISSOCK <function S_ISSOCK at 0xb5ebb910>
       S_ISUID 2048
       S_ISGID 1024
       S_ENFMT 1024
@@ -1343,7 +1622,7 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
       SF_NOUNLINK 1048576
       SF_SNAPSHOT 2097152
       _filemode_table (((40960, 'l'), (32768, '-'), (24576, 'b'), (16384, 'd'), (8192, 'c'), (4096, 'p')), ((256, 'r'),), ((128, 'w'),), ((2112, 's'), (2048, 'S'), (64, 'x')), ((32, 'r'),), ((16, 'w'),), ((1032, 's'), (1024, 'S'), (8, 'x')), ((4, 'r'),), ((2, 'w'),), ((513, 't'), (512, 'T'), (1, 'x')))
-      filemode <function filemode at 0xb5e88710>
+      filemode <function filemode at 0xb5ebba90>
     R_OK 4
     W_OK 2
     X_OK 1
@@ -1362,58 +1641,58 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
     curdir .
     pardir ..
     environ {'WARNING': 'NOT_IMPLEMENTED'}
-    chdir <function chdir at 0xb5e89310>
-    chdir_ <ffifunc b6ac29d0>
-    mkdir_ <ffifunc b6ac1a90>
-    rename_ <ffifunc b6a55550>
-    unlink <function unlink at 0xb5e893d0>
-    unlink_ <ffifunc b6ac3bb0>
-    rmdir_ <ffifunc b6ac3bf0>
-    getcwd <function getcwd at 0xb5e88880>
-    getcwd_ <ffifunc b6ac2a0c>
-    opendir_ <ffifunc b6a96684>
-    readdir_ <ffifunc b6a96778>
-    open_ <ffifunc b6ac1af0>
-    read_ <ffifunc b6ac1fa0>
-    write_ <ffifunc b6ac2030>
-    close_ <ffifunc b6ac2810>
-    dup <function dup at 0xb5e892f0>
-    dup_ <ffifunc b6ac2880>
-    access <function access at 0xb5e89300>
-    access_ <ffifunc b6ac20c0>
-    fork_ <ffifunc b6a9c42c>
-    pipe <function pipe at 0xb5e89330>
-    pipe_ <ffifunc b6ac28e0>
-    _exit <function _exit at 0xb5e89340>
-    _exit_ <ffifunc b6a9c804>
-    getpid <function getpid at 0xb5e89360>
-    getpid_ <ffifunc b6a9cfe0>
-    waitpid <function waitpid at 0xb5e89370>
-    waitpid_ <ffifunc b6a9c00c>
-    system_ <ffifunc b6a33534>
-    execvp <function execvp at 0xb5e89350>
-    execvp_ <ffifunc b6a9cb9c>
-    kill <function kill at 0xb5e89380>
-    kill_ <ffifunc b6a27280>
-    getenv_ <ffifunc b6a290d4>
-    raise_error <function raise_error at 0xb5e88870>
-    makedirs <function makedirs at 0xb5e89210>
-    listdir <function listdir at 0xb5e89240>
+    chdir <function chdir at 0xb5ebc690>
+    chdir_ <ffifunc b6af49d0>
+    mkdir_ <ffifunc b6af3a90>
+    rename_ <ffifunc b6a87550>
+    unlink <function unlink at 0xb5ebc750>
+    unlink_ <ffifunc b6af5bb0>
+    rmdir_ <ffifunc b6af5bf0>
+    getcwd <function getcwd at 0xb5ebbc00>
+    getcwd_ <ffifunc b6af4a0c>
+    opendir_ <ffifunc b6ac8684>
+    readdir_ <ffifunc b6ac8778>
+    open_ <ffifunc b6af3af0>
+    read_ <ffifunc b6af3fa0>
+    write_ <ffifunc b6af4030>
+    close_ <ffifunc b6af4810>
+    dup <function dup at 0xb5ebc670>
+    dup_ <ffifunc b6af4880>
+    access <function access at 0xb5ebc680>
+    access_ <ffifunc b6af40c0>
+    fork_ <ffifunc b6ace42c>
+    pipe <function pipe at 0xb5ebc6b0>
+    pipe_ <ffifunc b6af48e0>
+    _exit <function _exit at 0xb5ebc6c0>
+    _exit_ <ffifunc b6ace804>
+    getpid <function getpid at 0xb5ebc6e0>
+    getpid_ <ffifunc b6acefe0>
+    waitpid <function waitpid at 0xb5ebc6f0>
+    waitpid_ <ffifunc b6ace00c>
+    system_ <ffifunc b6a65534>
+    execvp <function execvp at 0xb5ebc6d0>
+    execvp_ <ffifunc b6aceb9c>
+    kill <function kill at 0xb5ebc700>
+    kill_ <ffifunc b6a59280>
+    getenv_ <ffifunc b6a5b0d4>
+    raise_error <function raise_error at 0xb5ebbbf0>
+    makedirs <function makedirs at 0xb5ebc590>
+    listdir <function listdir at 0xb5ebc5c0>
     walk <generator>
-    fsencode <function fsencode at 0xb5e893e0>
-    fsdecode <function fsdecode at 0xb5e893f0>
-    popen <function popen at 0xb5e89420>
-  signal <function signal at 0xb5e899a0>
-  libc <ffimod b6faf6a8>
-    close <bound_method b5efc380 <ffimod b6faf6a8>.<function>>
-    addr <bound_method b5efc3a0 <ffimod b6faf6a8>.<function>>
-    func <bound_method b5efc520 <ffimod b6faf6a8>.<function>>
-    var <bound_method b5efc650 <ffimod b6faf6a8>.<function>>
-  librt <ffimod b6fafc80>
-    close <bound_method b5efc940 <ffimod b6fafc80>.<function>>
-    addr <bound_method b5efc960 <ffimod b6fafc80>.<function>>
-    func <bound_method b5efcae0 <ffimod b6fafc80>.<function>>
-    var <bound_method b5efcc10 <ffimod b6fafc80>.<function>>
+    fsencode <function fsencode at 0xb5ebc760>
+    fsdecode <function fsdecode at 0xb5ebc770>
+    popen <function popen at 0xb5ebc7a0>
+  signal <function signal at 0xb5ebcd20>
+  libc <ffimod b6fe16a8>
+    close <bound_method b5f458c0 <ffimod b6fe16a8>.<function>>
+    addr <bound_method b5f458e0 <ffimod b6fe16a8>.<function>>
+    func <bound_method b5f45a60 <ffimod b6fe16a8>.<function>>
+    var <bound_method b5f45b90 <ffimod b6fe16a8>.<function>>
+  librt <ffimod b6fe1c80>
+    close <bound_method b5f45e80 <ffimod b6fe1c80>.<function>>
+    addr <bound_method b5f45ea0 <ffimod b6fe1c80>.<function>>
+    func <bound_method b5f46020 <ffimod b6fe1c80>.<function>>
+    var <bound_method b5f46150 <ffimod b6fe1c80>.<function>>
   CLOCK_REALTIME 0
   CLOCK_MONOTONIC 1
   SIGEV_SIGNAL 0
@@ -1422,24 +1701,24 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
   timespec_t {'tv_nsec': 939524104, 'tv_sec': 671088640}
   itimerspec_t {'it_interval': (0, {'tv_nsec': 939524104, 'tv_sec': 671088640}), 'it_value': (16, {'tv_nsec': 939524104, 'tv_sec': 671088640})}
   SIGRTMIN 34
-  timer_create_ <ffifunc b69b7afc>
-  timer_settime_ <ffifunc b69b7f10>
-  new <function new at 0xb5e8a0d0>
-  timer_create <function timer_create at 0xb5e8a0e0>
-  timer_settime <function timer_settime at 0xb5e8a0f0>
+  timer_create_ <ffifunc b69e9afc>
+  timer_settime_ <ffifunc b69e9f10>
+  new <function new at 0xb5ebd450>
+  timer_create <function timer_create at 0xb5ebd460>
+  timer_settime <function timer_settime at 0xb5ebd470>
   SIG_DFL 0
   SIG_IGN 1
   SIGPIPE 13
-  signal_i <ffifunc b6a26f00>
-  signal_p <ffifunc b6a26f00>
+  signal_i <ffifunc b6a58f00>
+  signal_p <ffifunc b6a58f00>
   Pin <class 'Pin'>
-    __init__ <function __init__ at 0xb5e8a860>
+    __init__ <function __init__ at 0xb5ebdbe0>
     __module__ machine.pin
     __qualname__ Pin
-    value <function value at 0xb5e8a8b0>
+    value <function value at 0xb5ebdc30>
     IN in
     OUT out
-    deinit <function deinit at 0xb5e8a850>
+    deinit <function deinit at 0xb5ebdbd0>
  <EV3Brick>
   battery <module 'battery'>
     current <function>
@@ -1447,30 +1726,30 @@ Starting: brickrun --directory="/home/robot/objdump" "/home/robot/objdump/main.p
   buttons <module 'buttons'>
     pressed <function>
   light <ColorLight>
-    off <bound_method b5eff0d0 <ColorLight>.<function>>
-    on <bound_method b5eff0e0 <ColorLight>.<function>>
+    off <bound_method b5f48610 <ColorLight>.<function>>
+    on <bound_method b5f48620 <ColorLight>.<function>>
   screen <Image>
-    clear <bound_method b5eff410 <Image>.<function>>
-    print <bound_method b5eff420 <Image>.<function>>
-    __del__ <bound_method b5eff590 <Image>.<function>>
-    draw_box <bound_method b5eff6b0 <Image>.<function>>
-    draw_circle <bound_method b5eff7d0 <Image>.<function>>
-    draw_image <bound_method b5eff8f0 <Image>.<function>>
-    draw_line <bound_method b5effa20 <Image>.<function>>
-    draw_pixel <bound_method b5effb40 <Image>.<function>>
-    draw_text <bound_method b5effc60 <Image>.<function>>
+    clear <bound_method b5f48950 <Image>.<function>>
+    print <bound_method b5f48960 <Image>.<function>>
+    __del__ <bound_method b5f48ad0 <Image>.<function>>
+    draw_box <bound_method b5f48bf0 <Image>.<function>>
+    draw_circle <bound_method b5f48d10 <Image>.<function>>
+    draw_image <bound_method b5f48e30 <Image>.<function>>
+    draw_line <bound_method b5f48f60 <Image>.<function>>
+    draw_pixel <bound_method b5f49080 <Image>.<function>>
+    draw_text <bound_method b5f491a0 <Image>.<function>>
     empty <function>
     height 128
-    load_image <bound_method b5effd80 <Image>.<function>>
-    save <bound_method b5f00050 <Image>.<function>>
-    set_font <bound_method b5f00170 <Image>.<function>>
+    load_image <bound_method b5f492c0 <Image>.<function>>
+    save <bound_method b5f49590 <Image>.<function>>
+    set_font <bound_method b5f496b0 <Image>.<function>>
     width 178
   speaker <Speaker>
-    beep <bound_method b5f00510 <Speaker>.<function>>
-    play_file <bound_method b5f00520 <Speaker>.<function>>
-    play_notes <bound_method b5f00690 <Speaker>.<function>>
-    say <bound_method b5f007b0 <Speaker>.<function>>
-    set_speech_options <bound_method b5f008d0 <Speaker>.<function>>
-    set_volume <bound_method b5f009f0 <Speaker>.<function>>
+    beep <bound_method b5f49a50 <Speaker>.<function>>
+    play_file <bound_method b5f49a60 <Speaker>.<function>>
+    play_notes <bound_method b5f49bd0 <Speaker>.<function>>
+    say <bound_method b5f49cf0 <Speaker>.<function>>
+    set_speech_options <bound_method b5f49e10 <Speaker>.<function>>
+    set_volume <bound_method b5f49f30 <Speaker>.<function>>
 ----------
 Completed successfully.
