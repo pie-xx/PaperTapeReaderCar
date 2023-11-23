@@ -36,3 +36,7 @@ https://www.waveshare.com/wiki/Pico-Motor-Driver
 |--|--|
 |picoソース|main.py|
 |紙テープリーダー修正ソース|sketch_oct4a.ino|
+
+もともとはEV3で紙テープ読みながら走るクルマを作りたかった。
+
+[EV3について](./EV3/README.md)
