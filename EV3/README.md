@@ -61,7 +61,7 @@ PCと接続するとき
 
 紙テープリーダーと接続するとき
 
-<img src="../doc/TapeReader-EV3.svg" width=512 />
+<img src="../doc/TapeReader-EV3.jpg" width=512 />
 
 |紙テープリーダー|EV3ケーブル|
 |--|--|
