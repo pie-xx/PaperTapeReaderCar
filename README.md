@@ -37,6 +37,15 @@ https://www.waveshare.com/wiki/Pico-Motor-Driver
 |picoソース|main.py|
 |紙テープリーダー修正ソース|sketch_oct4a.ino|
 
-もともとはEV3で紙テープ読みながら走るクルマを作りたかった。
+もともとはEV3で紙テープ読みながら走るクルマを作りたかったので、EV3に関するドキュメントは以下にある。
 
 [EV3について](./EV3/README.md)
+
+以下、読まなくていいグチ
+
+　もともとはLEGO Mindstorms EV3に紙テープリーダーを接続してMakerFairで走らせたいという話だったので、続いてpicoの代わりにEV3を使うことをやりはじめた。ケーブル作ればなんとかなるっしょ、くらいの簡単なお仕事と思ってたら、意外に難しかった。
+
+1. LEGO本社からMindstormsの製品ページがなくなっている。
+2. BricsCCというLEGO Mindstroms界隈でよく使われてる開発環境を入れようしたら、SygwinだのGitだのEV3のソースだのいろいろ必要で、最終的にクロスコンパイラが配布終了になっているのが分かってお手上げ。
+3. EV3のOS (なんとLinux) を置き換えて、Micropythonを使って開発できる環境がVS Code の拡張機能にあるのでインストール。picoのMicropythonではUARTオブジェクトでシリアル通信できたから、EV3のMicropythonにそれらしきオブジェクトがないかダンプしてみたが出力にでてこない。
+4. 私の作ったPythonのオブジェクトダンプは、importしないと対象が出てこないものだった。UART関連オブジェクト名をマニュアル見てimportしたらちゃんと出力された。
